@@ -1,0 +1,39 @@
+name: Update Labor Market Data
+
+on:
+  schedule:
+    # Run on the 5th of each month at 2am UTC (allows time for Census to update)
+    - cron: '0 2 5 * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Julia
+        uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.10' # or whatever version you prefer
+          
+      - name: Cache Julia packages
+        uses: julia-actions/cache@v2
+        
+      - name: Instantiate Julia environment
+        run: |
+          julia --project=. -e 'using Pkg; Pkg.instantiate()'
+          
+      - name: Run data pipeline
+        env:
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+        run: julia --project=. pipeline.jl
+        
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/labor_stats.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update labor market data - $(date +'%Y-%m-%d')" && git push)

@@ -1,0 +1,14 @@
+{
+    "metric": "percentage_at_or_below_minimum_wage",
+    "minimum_wage": 7.25,
+    "data": [
+        {
+            "year": 2025,
+            "month": 8,
+            "percentage": 1.01,
+            "count": 725860,
+            "total": 71524662
+        }
+    ],
+    "generated_at": "2025-11-14T13:56:47.285"
+}
