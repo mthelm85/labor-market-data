@@ -2,6 +2,7 @@ using Dates
 using HTTP
 using JSON3
 using DataFramesMeta
+using Statistics
 
 # Configuration
 const FEDERAL_MIN_WAGE = 7.25
