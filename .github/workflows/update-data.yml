@@ -24,6 +24,7 @@ jobs:
         
       - name: Instantiate Julia environment
         run: |
+          rm -f Manifest.toml
           julia --project=. -e 'using Pkg; Pkg.instantiate()'
           
       - name: Run data pipeline
