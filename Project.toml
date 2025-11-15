@@ -2,6 +2,7 @@
 DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 [compat]
 DataFramesMeta = "0.15"
