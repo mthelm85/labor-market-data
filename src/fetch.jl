@@ -33,7 +33,7 @@ function fetch_cps_data(year::Int, month::Int, api_key::String)
         df.PEHRACT1 = parse.(Int64, df.PEHRACT1)
         df.PRDTIND1 = parse.(Int64, df.PRDTIND1)
         df.PRDTOCC1 = parse.(Int64, df.PRDTOCC1)
-        df.PRHRUSL = parse.(Int64, df.PRHRUSL)
+        df.PRHRUSL = tryparse.(Int64, df.PRHRUSL)
         
         return df
         
