@@ -1,0 +1,396 @@
+{
+    "monthly": [
+        {
+            "month": 11,
+            "unemployment_rate": 3.99,
+            "min_wage_pct": 4.88,
+            "year": 2024,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 156.44
+        },
+        {
+            "month": 12,
+            "unemployment_rate": 3.85,
+            "min_wage_pct": 4.67,
+            "year": 2024,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 203.77
+        },
+        {
+            "month": 1,
+            "unemployment_rate": 4.4,
+            "min_wage_pct": 5.26,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 241.09
+        },
+        {
+            "month": 2,
+            "unemployment_rate": 4.45,
+            "min_wage_pct": 5.29,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 203.3
+        },
+        {
+            "month": 3,
+            "unemployment_rate": 4.24,
+            "min_wage_pct": 3.91,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 192.96
+        },
+        {
+            "month": 4,
+            "unemployment_rate": 3.86,
+            "min_wage_pct": 4.12,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 171.82
+        },
+        {
+            "month": 5,
+            "unemployment_rate": 4,
+            "min_wage_pct": 5.06,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 131.83
+        },
+        {
+            "month": 6,
+            "unemployment_rate": 4.35,
+            "min_wage_pct": 3.97,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 209.02
+        },
+        {
+            "month": 7,
+            "unemployment_rate": 4.57,
+            "min_wage_pct": 3.92,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 163.22
+        },
+        {
+            "month": 8,
+            "unemployment_rate": 4.53,
+            "min_wage_pct": 3.5,
+            "year": 2025,
+            "median_hourly_wage": 20.25,
+            "discouraged_rate": 148.37
+        }
+    ],
+    "industries": [
+        {
+            "industry_name": "Agriculture, forestry, fishing, and hunting",
+            "industry_code": 1,
+            "q1": 16,
+            "max": 74.93,
+            "min": 6.2,
+            "q2": 17.5,
+            "q3": 21
+        },
+        {
+            "industry_name": "Mining",
+            "industry_code": 2,
+            "q1": 22,
+            "max": 74.93,
+            "min": 11,
+            "q2": 26.03,
+            "q3": 32.13
+        },
+        {
+            "industry_name": "Construction",
+            "industry_code": 3,
+            "q1": 20,
+            "max": 74.93,
+            "min": 1,
+            "q2": 25,
+            "q3": 33
+        },
+        {
+            "industry_name": "Manufacturing",
+            "industry_code": 4,
+            "q1": 19,
+            "max": 74.93,
+            "min": 1,
+            "q2": 23,
+            "q3": 30
+        },
+        {
+            "industry_name": "Wholesale and retail trade",
+            "industry_code": 5,
+            "q1": 15,
+            "max": 74.93,
+            "min": 1,
+            "q2": 18,
+            "q3": 22.1
+        },
+        {
+            "industry_name": "Transportation and utilities",
+            "industry_code": 6,
+            "q1": 18.25,
+            "max": 74.93,
+            "min": 5.5,
+            "q2": 22.5,
+            "q3": 30
+        },
+        {
+            "industry_name": "Information",
+            "industry_code": 7,
+            "q1": 18,
+            "max": 74.93,
+            "min": 2.15,
+            "q2": 24,
+            "q3": 34.5
+        },
+        {
+            "industry_name": "Financial activities",
+            "industry_code": 8,
+            "q1": 19,
+            "max": 74.93,
+            "min": 6.5,
+            "q2": 23,
+            "q3": 28.85
+        },
+        {
+            "industry_name": "Professional and business services",
+            "industry_code": 9,
+            "q1": 17.5,
+            "max": 74.93,
+            "min": 1,
+            "q2": 22,
+            "q3": 30
+        },
+        {
+            "industry_name": "Educational and health services",
+            "industry_code": 10,
+            "q1": 17.5,
+            "max": 74.93,
+            "min": 1,
+            "q2": 22,
+            "q3": 32
+        },
+        {
+            "industry_name": "Leisure and hospitality",
+            "industry_code": 11,
+            "q1": 13,
+            "max": 74.93,
+            "min": 1,
+            "q2": 16,
+            "q3": 19.92
+        },
+        {
+            "industry_name": "Other services",
+            "industry_code": 12,
+            "q1": 15.5,
+            "max": 74.93,
+            "min": 0.2,
+            "q2": 20,
+            "q3": 25
+        }
+    ],
+    "lookback_months": 12,
+    "occupations": [
+        {
+            "q1": 19.5,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Management",
+            "occupation_code": 1,
+            "q2": 25,
+            "q3": 34
+        },
+        {
+            "q1": 20.05,
+            "max": 74.93,
+            "min": 5,
+            "occupation_name": "Business and financial operations",
+            "occupation_code": 2,
+            "q2": 26,
+            "q3": 35
+        },
+        {
+            "q1": 23,
+            "max": 74.93,
+            "min": 7,
+            "occupation_name": "Computer and mathematical",
+            "occupation_code": 3,
+            "q2": 30.5,
+            "q3": 46
+        },
+        {
+            "q1": 24.45,
+            "max": 74.93,
+            "min": 1.4,
+            "occupation_name": "Architecture and engineering",
+            "occupation_code": 4,
+            "q2": 32,
+            "q3": 45
+        },
+        {
+            "q1": 21,
+            "max": 74.93,
+            "min": 10,
+            "occupation_name": "Life, physical, and social science",
+            "occupation_code": 5,
+            "q2": 27.81,
+            "q3": 37
+        },
+        {
+            "q1": 20,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Community and social service",
+            "occupation_code": 6,
+            "q2": 25,
+            "q3": 36.25
+        },
+        {
+            "q1": 20.16,
+            "max": 74.93,
+            "min": 13.6,
+            "occupation_name": "Legal",
+            "occupation_code": 7,
+            "q2": 26.45,
+            "q3": 35
+        },
+        {
+            "q1": 16,
+            "max": 74.93,
+            "min": 7.25,
+            "occupation_name": "Education, training, and library",
+            "occupation_code": 8,
+            "q2": 20,
+            "q3": 29
+        },
+        {
+            "q1": 18,
+            "max": 74.93,
+            "min": 2.5,
+            "occupation_name": "Arts, design, entertainment, sports, and media",
+            "occupation_code": 9,
+            "q2": 24,
+            "q3": 32
+        },
+        {
+            "q1": 23.05,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Healthcare practitioners and technical",
+            "occupation_code": 10,
+            "q2": 34,
+            "q3": 45.92
+        },
+        {
+            "q1": 16,
+            "max": 74.93,
+            "min": 2.35,
+            "occupation_name": "Healthcare support",
+            "occupation_code": 11,
+            "q2": 19,
+            "q3": 22
+        },
+        {
+            "q1": 16,
+            "max": 73.98,
+            "min": 2,
+            "occupation_name": "Protective service",
+            "occupation_code": 12,
+            "q2": 18.5,
+            "q3": 23
+        },
+        {
+            "q1": 12.5,
+            "max": 73.98,
+            "min": 1.1,
+            "occupation_name": "Food preparation and serving",
+            "occupation_code": 13,
+            "q2": 15.5,
+            "q3": 18.25
+        },
+        {
+            "q1": 15,
+            "max": 74.93,
+            "min": 2,
+            "occupation_name": "Building and grounds cleaning and maintenance",
+            "occupation_code": 14,
+            "q2": 18,
+            "q3": 22
+        },
+        {
+            "q1": 14,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Personal care and service",
+            "occupation_code": 15,
+            "q2": 16.85,
+            "q3": 20
+        },
+        {
+            "q1": 14.5,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Sales",
+            "occupation_code": 16,
+            "q2": 17,
+            "q3": 20.75
+        },
+        {
+            "q1": 17,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Office and administrative support",
+            "occupation_code": 17,
+            "q2": 20,
+            "q3": 25
+        },
+        {
+            "q1": 16,
+            "max": 74.93,
+            "min": 6.2,
+            "occupation_name": "Farming, fishing, and forestry",
+            "occupation_code": 18,
+            "q2": 17,
+            "q3": 20
+        },
+        {
+            "q1": 20,
+            "max": 74.93,
+            "min": 1.15,
+            "occupation_name": "Construction and extraction",
+            "occupation_code": 19,
+            "q2": 25,
+            "q3": 34
+        },
+        {
+            "q1": 20,
+            "max": 74.93,
+            "min": 0.2,
+            "occupation_name": "Installation, maintenance, and repair",
+            "occupation_code": 20,
+            "q2": 27,
+            "q3": 34
+        },
+        {
+            "q1": 18,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Production",
+            "occupation_code": 21,
+            "q2": 22,
+            "q3": 27
+        },
+        {
+            "q1": 16,
+            "max": 74.93,
+            "min": 4.8,
+            "occupation_name": "Transportation and material moving",
+            "occupation_code": 22,
+            "q2": 19.6,
+            "q3": 24.02
+        }
+    ],
+    "generated_at": "2025-11-18T21:58:01.262"
+}
