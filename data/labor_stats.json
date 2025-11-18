@@ -1,1526 +1,396 @@
 {
-    "lookback_months": 12,
-    "data": [
+    "monthly": [
         {
-            "year": 2024,
             "month": 11,
-            "min_wage_percentage": 1.26,
-            "min_wage_count": 897571,
-            "min_wage_total": 71230631,
             "unemployment_rate": 3.99,
-            "unemployed_count": 6707669,
-            "labor_force_count": 168164069,
-            "labor_force_participation_rate": 62.41,
-            "total_population_count": 269463189,
+            "min_wage_pct": 4.88,
+            "year": 2024,
             "median_hourly_wage": 20,
-            "top_industries": [
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "employment": 16316198
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "employment": 14879284
-                },
-                {
-                    "industry_code": 36,
-                    "industry_name": "Professional, scientific, and technical services",
-                    "employment": 14113755
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "employment": 11965823
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "employment": 11361520
-                },
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "employment": 9138263
-                },
-                {
-                    "industry_code": 51,
-                    "industry_name": "Public administration",
-                    "employment": 8533018
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "employment": 8230797
-                },
-                {
-                    "industry_code": 41,
-                    "industry_name": "Hospitals",
-                    "employment": 7564359
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "employment": 6643254
-                }
-            ],
-            "top_occupations": [
-                {
-                    "occupation_code": 1,
-                    "occupation_name": "Management",
-                    "employment": 20736148
-                },
-                {
-                    "occupation_code": 17,
-                    "occupation_name": "Office and administrative support",
-                    "employment": 16067071
-                },
-                {
-                    "occupation_code": 16,
-                    "occupation_name": "Sales",
-                    "employment": 13731794
-                },
-                {
-                    "occupation_code": 22,
-                    "occupation_name": "Transportation and material moving",
-                    "employment": 11839033
-                },
-                {
-                    "occupation_code": 10,
-                    "occupation_name": "Healthcare practitioners and technical",
-                    "employment": 10235194
-                },
-                {
-                    "occupation_code": 8,
-                    "occupation_name": "Education, training, and library",
-                    "employment": 10031325
-                },
-                {
-                    "occupation_code": 2,
-                    "occupation_name": "Business and financial operations",
-                    "employment": 9881480
-                },
-                {
-                    "occupation_code": 19,
-                    "occupation_name": "Construction and extraction",
-                    "employment": 8476250
-                },
-                {
-                    "occupation_code": 13,
-                    "occupation_name": "Food preparation and serving",
-                    "employment": 7895227
-                },
-                {
-                    "occupation_code": 21,
-                    "occupation_name": "Production",
-                    "employment": 7858596
-                }
-            ],
-            "parttime_employment_rate": 24.61,
-            "parttime_count": 38657813,
-            "total_employed_count": 157071597,
-            "median_overtime_hours": 10,
-            "overtime_by_industry": [
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_ot_hours": 9.49
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "median_ot_hours": 8
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "median_ot_hours": 8
-                }
-            ],
-            "lowest_wage_industries": [
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "median_hourly_wage": 15.22
-                },
-                {
-                    "industry_code": 1,
-                    "industry_name": "Agriculture",
-                    "median_hourly_wage": 16
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 44,
-                    "industry_name": "Arts, entertainment, and recreation",
-                    "median_hourly_wage": 17.5
-                },
-                {
-                    "industry_code": 43,
-                    "industry_name": "Social assistance services",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 45,
-                    "industry_name": "Accommodation",
-                    "median_hourly_wage": 18.12
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "median_hourly_wage": 18.32
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "median_hourly_wage": 20
-                },
-                {
-                    "industry_code": 47,
-                    "industry_name": "Repair and maintenance",
-                    "median_hourly_wage": 20
-                },
-                {
-                    "industry_code": 48,
-                    "industry_name": "Personal and laundry services",
-                    "median_hourly_wage": 20
-                }
-            ]
+            "discouraged_rate": 156.44
         },
         {
-            "year": 2025,
+            "month": 12,
+            "unemployment_rate": 3.85,
+            "min_wage_pct": 4.67,
+            "year": 2024,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 203.77
+        },
+        {
             "month": 1,
-            "min_wage_percentage": 1.36,
-            "min_wage_count": 960440,
-            "min_wage_total": 70681458,
             "unemployment_rate": 4.4,
-            "unemployed_count": 7466708,
-            "labor_force_count": 169813814,
-            "labor_force_participation_rate": 62.27,
-            "total_population_count": 272684713,
-            "median_hourly_wage": 20.5,
-            "top_industries": [
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "employment": 16741184
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "employment": 14628215
-                },
-                {
-                    "industry_code": 36,
-                    "industry_name": "Professional, scientific, and technical services",
-                    "employment": 14406429
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "employment": 12018615
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "employment": 11415997
-                },
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "employment": 9083751
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "employment": 8585739
-                },
-                {
-                    "industry_code": 51,
-                    "industry_name": "Public administration",
-                    "employment": 8161479
-                },
-                {
-                    "industry_code": 41,
-                    "industry_name": "Hospitals",
-                    "employment": 7935585
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "employment": 6384037
-                }
-            ],
-            "top_occupations": [
-                {
-                    "occupation_code": 1,
-                    "occupation_name": "Management",
-                    "employment": 20709134
-                },
-                {
-                    "occupation_code": 17,
-                    "occupation_name": "Office and administrative support",
-                    "employment": 16226736
-                },
-                {
-                    "occupation_code": 16,
-                    "occupation_name": "Sales",
-                    "employment": 14238238
-                },
-                {
-                    "occupation_code": 22,
-                    "occupation_name": "Transportation and material moving",
-                    "employment": 11924783
-                },
-                {
-                    "occupation_code": 10,
-                    "occupation_name": "Healthcare practitioners and technical",
-                    "employment": 10678434
-                },
-                {
-                    "occupation_code": 2,
-                    "occupation_name": "Business and financial operations",
-                    "employment": 9937003
-                },
-                {
-                    "occupation_code": 8,
-                    "occupation_name": "Education, training, and library",
-                    "employment": 9550874
-                },
-                {
-                    "occupation_code": 21,
-                    "occupation_name": "Production",
-                    "employment": 8107061
-                },
-                {
-                    "occupation_code": 13,
-                    "occupation_name": "Food preparation and serving",
-                    "employment": 8038901
-                },
-                {
-                    "occupation_code": 19,
-                    "occupation_name": "Construction and extraction",
-                    "employment": 7986401
-                }
-            ],
-            "parttime_employment_rate": 24.19,
-            "parttime_count": 37965856,
-            "total_employed_count": 156929397,
-            "median_overtime_hours": 10,
-            "overtime_by_industry": [
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_ot_hours": 5
-                }
-            ],
-            "lowest_wage_industries": [
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "median_hourly_wage": 15
-                },
-                {
-                    "industry_code": 45,
-                    "industry_name": "Accommodation",
-                    "median_hourly_wage": 16
-                },
-                {
-                    "industry_code": 44,
-                    "industry_name": "Arts, entertainment, and recreation",
-                    "median_hourly_wage": 16.64
-                },
-                {
-                    "industry_code": 1,
-                    "industry_name": "Agriculture",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "median_hourly_wage": 18.25
-                },
-                {
-                    "industry_code": 48,
-                    "industry_name": "Personal and laundry services",
-                    "median_hourly_wage": 18.75
-                },
-                {
-                    "industry_code": 14,
-                    "industry_name": "Food manufacturing",
-                    "median_hourly_wage": 18.9
-                },
-                {
-                    "industry_code": 43,
-                    "industry_name": "Social assistance services",
-                    "median_hourly_wage": 19.6
-                },
-                {
-                    "industry_code": 13,
-                    "industry_name": "Miscellaneous and not specified manufacturing",
-                    "median_hourly_wage": 20
-                }
-            ]
-        },
-        {
+            "min_wage_pct": 5.26,
             "year": 2025,
-            "month": 2,
-            "min_wage_percentage": 1.47,
-            "min_wage_count": 1057314,
-            "min_wage_total": 71772422,
-            "unemployment_rate": 4.45,
-            "unemployed_count": 7571597,
-            "labor_force_count": 170115509,
-            "labor_force_participation_rate": 62.35,
-            "total_population_count": 272846797,
-            "median_hourly_wage": 20.5,
-            "top_industries": [
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "employment": 16892563
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "employment": 15182185
-                },
-                {
-                    "industry_code": 36,
-                    "industry_name": "Professional, scientific, and technical services",
-                    "employment": 14181135
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "employment": 12294946
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "employment": 11446337
-                },
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "employment": 9009544
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "employment": 8625987
-                },
-                {
-                    "industry_code": 51,
-                    "industry_name": "Public administration",
-                    "employment": 7830677
-                },
-                {
-                    "industry_code": 41,
-                    "industry_name": "Hospitals",
-                    "employment": 7599225
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "employment": 6138928
-                }
-            ],
-            "top_occupations": [
-                {
-                    "occupation_code": 1,
-                    "occupation_name": "Management",
-                    "employment": 20944403
-                },
-                {
-                    "occupation_code": 17,
-                    "occupation_name": "Office and administrative support",
-                    "employment": 16504039
-                },
-                {
-                    "occupation_code": 16,
-                    "occupation_name": "Sales",
-                    "employment": 14119679
-                },
-                {
-                    "occupation_code": 22,
-                    "occupation_name": "Transportation and material moving",
-                    "employment": 11929045
-                },
-                {
-                    "occupation_code": 10,
-                    "occupation_name": "Healthcare practitioners and technical",
-                    "employment": 10327270
-                },
-                {
-                    "occupation_code": 8,
-                    "occupation_name": "Education, training, and library",
-                    "employment": 9910104
-                },
-                {
-                    "occupation_code": 2,
-                    "occupation_name": "Business and financial operations",
-                    "employment": 9703308
-                },
-                {
-                    "occupation_code": 21,
-                    "occupation_name": "Production",
-                    "employment": 8301645
-                },
-                {
-                    "occupation_code": 13,
-                    "occupation_name": "Food preparation and serving",
-                    "employment": 8079145
-                },
-                {
-                    "occupation_code": 19,
-                    "occupation_name": "Construction and extraction",
-                    "employment": 7977431
-                }
-            ],
-            "parttime_employment_rate": 25.58,
-            "parttime_count": 40312698,
-            "total_employed_count": 157622271,
-            "median_overtime_hours": 10,
-            "overtime_by_industry": [
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_ot_hours": 7
-                }
-            ],
-            "lowest_wage_industries": [
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "median_hourly_wage": 16
-                },
-                {
-                    "industry_code": 48,
-                    "industry_name": "Personal and laundry services",
-                    "median_hourly_wage": 16.38
-                },
-                {
-                    "industry_code": 1,
-                    "industry_name": "Agriculture",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 50,
-                    "industry_name": "Private households",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 44,
-                    "industry_name": "Arts, entertainment, and recreation",
-                    "median_hourly_wage": 17.25
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_hourly_wage": 17.6
-                },
-                {
-                    "industry_code": 43,
-                    "industry_name": "Social assistance services",
-                    "median_hourly_wage": 18.04
-                },
-                {
-                    "industry_code": 45,
-                    "industry_name": "Accommodation",
-                    "median_hourly_wage": 19.8
-                },
-                {
-                    "industry_code": 14,
-                    "industry_name": "Food manufacturing",
-                    "median_hourly_wage": 20
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "median_hourly_wage": 20
-                }
-            ]
-        },
-        {
-            "year": 2025,
-            "month": 3,
-            "min_wage_percentage": 1,
-            "min_wage_count": 724228,
-            "min_wage_total": 72144307,
-            "unemployment_rate": 4.24,
-            "unemployed_count": 7241967,
-            "labor_force_count": 170653488,
-            "labor_force_participation_rate": 62.51,
-            "total_population_count": 273022835,
-            "median_hourly_wage": 21,
-            "top_industries": [
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "employment": 16745780
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "employment": 15067078
-                },
-                {
-                    "industry_code": 36,
-                    "industry_name": "Professional, scientific, and technical services",
-                    "employment": 14761654
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "employment": 11985222
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "employment": 11892572
-                },
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "employment": 9164217
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "employment": 8772169
-                },
-                {
-                    "industry_code": 51,
-                    "industry_name": "Public administration",
-                    "employment": 7887478
-                },
-                {
-                    "industry_code": 41,
-                    "industry_name": "Hospitals",
-                    "employment": 7688435
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "employment": 6367475
-                }
-            ],
-            "top_occupations": [
-                {
-                    "occupation_code": 1,
-                    "occupation_name": "Management",
-                    "employment": 20887954
-                },
-                {
-                    "occupation_code": 17,
-                    "occupation_name": "Office and administrative support",
-                    "employment": 16530428
-                },
-                {
-                    "occupation_code": 16,
-                    "occupation_name": "Sales",
-                    "employment": 13873103
-                },
-                {
-                    "occupation_code": 22,
-                    "occupation_name": "Transportation and material moving",
-                    "employment": 11968864
-                },
-                {
-                    "occupation_code": 10,
-                    "occupation_name": "Healthcare practitioners and technical",
-                    "employment": 10678016
-                },
-                {
-                    "occupation_code": 2,
-                    "occupation_name": "Business and financial operations",
-                    "employment": 10169241
-                },
-                {
-                    "occupation_code": 8,
-                    "occupation_name": "Education, training, and library",
-                    "employment": 9502415
-                },
-                {
-                    "occupation_code": 19,
-                    "occupation_name": "Construction and extraction",
-                    "employment": 8473129
-                },
-                {
-                    "occupation_code": 13,
-                    "occupation_name": "Food preparation and serving",
-                    "employment": 8157754
-                },
-                {
-                    "occupation_code": 21,
-                    "occupation_name": "Production",
-                    "employment": 7912831
-                }
-            ],
-            "parttime_employment_rate": 24.38,
-            "parttime_count": 38593912,
-            "total_employed_count": 158298755,
-            "median_overtime_hours": 10,
-            "overtime_by_industry": [
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_ot_hours": 5
-                }
-            ],
-            "lowest_wage_industries": [
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "median_hourly_wage": 15
-                },
-                {
-                    "industry_code": 48,
-                    "industry_name": "Personal and laundry services",
-                    "median_hourly_wage": 16.5
-                },
-                {
-                    "industry_code": 1,
-                    "industry_name": "Agriculture",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 44,
-                    "industry_name": "Arts, entertainment, and recreation",
-                    "median_hourly_wage": 17.43
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_hourly_wage": 17.5
-                },
-                {
-                    "industry_code": 45,
-                    "industry_name": "Accommodation",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 14,
-                    "industry_name": "Food manufacturing",
-                    "median_hourly_wage": 19.18
-                },
-                {
-                    "industry_code": 43,
-                    "industry_name": "Social assistance services",
-                    "median_hourly_wage": 19.37
-                },
-                {
-                    "industry_code": 49,
-                    "industry_name": "Membership associations and organizations",
-                    "median_hourly_wage": 19.44
-                },
-                {
-                    "industry_code": 34,
-                    "industry_name": "Real estate",
-                    "median_hourly_wage": 19.65
-                }
-            ]
-        },
-        {
-            "year": 2025,
-            "month": 4,
-            "min_wage_percentage": 1.1,
-            "min_wage_count": 767293,
-            "min_wage_total": 69918437,
-            "unemployment_rate": 3.86,
-            "unemployed_count": 6581722,
-            "labor_force_count": 170650405,
-            "labor_force_participation_rate": 62.46,
-            "total_population_count": 273196965,
-            "median_hourly_wage": 20.25,
-            "top_industries": [
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "employment": 16712683
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "employment": 15093461
-                },
-                {
-                    "industry_code": 36,
-                    "industry_name": "Professional, scientific, and technical services",
-                    "employment": 14517173
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "employment": 12002340
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "employment": 11972818
-                },
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "employment": 9594959
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "employment": 8626926
-                },
-                {
-                    "industry_code": 51,
-                    "industry_name": "Public administration",
-                    "employment": 7738297
-                },
-                {
-                    "industry_code": 41,
-                    "industry_name": "Hospitals",
-                    "employment": 7715756
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "employment": 6626131
-                }
-            ],
-            "top_occupations": [
-                {
-                    "occupation_code": 1,
-                    "occupation_name": "Management",
-                    "employment": 20990087
-                },
-                {
-                    "occupation_code": 17,
-                    "occupation_name": "Office and administrative support",
-                    "employment": 16024051
-                },
-                {
-                    "occupation_code": 16,
-                    "occupation_name": "Sales",
-                    "employment": 13988174
-                },
-                {
-                    "occupation_code": 22,
-                    "occupation_name": "Transportation and material moving",
-                    "employment": 12075109
-                },
-                {
-                    "occupation_code": 2,
-                    "occupation_name": "Business and financial operations",
-                    "employment": 10657697
-                },
-                {
-                    "occupation_code": 10,
-                    "occupation_name": "Healthcare practitioners and technical",
-                    "employment": 10371288
-                },
-                {
-                    "occupation_code": 8,
-                    "occupation_name": "Education, training, and library",
-                    "employment": 9734196
-                },
-                {
-                    "occupation_code": 19,
-                    "occupation_name": "Construction and extraction",
-                    "employment": 8459606
-                },
-                {
-                    "occupation_code": 13,
-                    "occupation_name": "Food preparation and serving",
-                    "employment": 8335666
-                },
-                {
-                    "occupation_code": 21,
-                    "occupation_name": "Production",
-                    "employment": 8071845
-                }
-            ],
-            "parttime_employment_rate": 23.5,
-            "parttime_count": 37414365,
-            "total_employed_count": 159194858,
-            "median_overtime_hours": 10,
-            "overtime_by_industry": [
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "median_ot_hours": 8
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "median_ot_hours": 8
-                }
-            ],
-            "lowest_wage_industries": [
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "median_hourly_wage": 16
-                },
-                {
-                    "industry_code": 1,
-                    "industry_name": "Agriculture",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 45,
-                    "industry_name": "Accommodation",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 48,
-                    "industry_name": "Personal and laundry services",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 44,
-                    "industry_name": "Arts, entertainment, and recreation",
-                    "median_hourly_wage": 17.61
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 50,
-                    "industry_name": "Private households",
-                    "median_hourly_wage": 18.29
-                },
-                {
-                    "industry_code": 43,
-                    "industry_name": "Social assistance services",
-                    "median_hourly_wage": 19.5
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "median_hourly_wage": 19.53
-                },
-                {
-                    "industry_code": 14,
-                    "industry_name": "Food manufacturing",
-                    "median_hourly_wage": 20
-                }
-            ]
-        },
-        {
-            "year": 2025,
-            "month": 5,
-            "min_wage_percentage": 1.26,
-            "min_wage_count": 927248,
-            "min_wage_total": 73369139,
-            "unemployment_rate": 4,
-            "unemployed_count": 6815071,
-            "labor_force_count": 170215953,
-            "labor_force_participation_rate": 62.26,
-            "total_population_count": 273384773,
-            "median_hourly_wage": 20.6,
-            "top_industries": [
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "employment": 16541562
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "employment": 14806005
-                },
-                {
-                    "industry_code": 36,
-                    "industry_name": "Professional, scientific, and technical services",
-                    "employment": 14219349
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "employment": 12338869
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "employment": 11901207
-                },
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "employment": 9476603
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "employment": 8553795
-                },
-                {
-                    "industry_code": 41,
-                    "industry_name": "Hospitals",
-                    "employment": 7724779
-                },
-                {
-                    "industry_code": 51,
-                    "industry_name": "Public administration",
-                    "employment": 7585458
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "employment": 6914300
-                }
-            ],
-            "top_occupations": [
-                {
-                    "occupation_code": 1,
-                    "occupation_name": "Management",
-                    "employment": 20664245
-                },
-                {
-                    "occupation_code": 17,
-                    "occupation_name": "Office and administrative support",
-                    "employment": 16105942
-                },
-                {
-                    "occupation_code": 16,
-                    "occupation_name": "Sales",
-                    "employment": 14159423
-                },
-                {
-                    "occupation_code": 22,
-                    "occupation_name": "Transportation and material moving",
-                    "employment": 11746112
-                },
-                {
-                    "occupation_code": 10,
-                    "occupation_name": "Healthcare practitioners and technical",
-                    "employment": 10307385
-                },
-                {
-                    "occupation_code": 2,
-                    "occupation_name": "Business and financial operations",
-                    "employment": 10127446
-                },
-                {
-                    "occupation_code": 8,
-                    "occupation_name": "Education, training, and library",
-                    "employment": 9805452
-                },
-                {
-                    "occupation_code": 19,
-                    "occupation_name": "Construction and extraction",
-                    "employment": 8827193
-                },
-                {
-                    "occupation_code": 13,
-                    "occupation_name": "Food preparation and serving",
-                    "employment": 8440071
-                },
-                {
-                    "occupation_code": 21,
-                    "occupation_name": "Production",
-                    "employment": 7937961
-                }
-            ],
-            "parttime_employment_rate": 23.62,
-            "parttime_count": 37473987,
-            "total_employed_count": 158669176,
-            "median_overtime_hours": 10,
-            "overtime_by_industry": [
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_ot_hours": 5
-                }
-            ],
-            "lowest_wage_industries": [
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "median_hourly_wage": 15.5
-                },
-                {
-                    "industry_code": 44,
-                    "industry_name": "Arts, entertainment, and recreation",
-                    "median_hourly_wage": 16
-                },
-                {
-                    "industry_code": 1,
-                    "industry_name": "Agriculture",
-                    "median_hourly_wage": 16.77
-                },
-                {
-                    "industry_code": 48,
-                    "industry_name": "Personal and laundry services",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 43,
-                    "industry_name": "Social assistance services",
-                    "median_hourly_wage": 20
-                },
-                {
-                    "industry_code": 45,
-                    "industry_name": "Accommodation",
-                    "median_hourly_wage": 20
-                },
-                {
-                    "industry_code": 14,
-                    "industry_name": "Food manufacturing",
-                    "median_hourly_wage": 21
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "median_hourly_wage": 21
-                }
-            ]
-        },
-        {
-            "year": 2025,
-            "month": 6,
-            "min_wage_percentage": 0.99,
-            "min_wage_count": 699978,
-            "min_wage_total": 70784113,
-            "unemployment_rate": 4.35,
-            "unemployed_count": 7459711,
-            "labor_force_count": 171342585,
-            "labor_force_participation_rate": 62.63,
-            "total_population_count": 273584955,
             "median_hourly_wage": 20,
-            "top_industries": [
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "employment": 16770449
-                },
-                {
-                    "industry_code": 36,
-                    "industry_name": "Professional, scientific, and technical services",
-                    "employment": 14515421
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "employment": 13507940
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "employment": 12386946
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "employment": 11721178
-                },
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "employment": 9428324
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "employment": 8601740
-                },
-                {
-                    "industry_code": 41,
-                    "industry_name": "Hospitals",
-                    "employment": 8008824
-                },
-                {
-                    "industry_code": 51,
-                    "industry_name": "Public administration",
-                    "employment": 7828872
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "employment": 7117554
-                }
-            ],
-            "top_occupations": [
-                {
-                    "occupation_code": 1,
-                    "occupation_name": "Management",
-                    "employment": 20775032
-                },
-                {
-                    "occupation_code": 17,
-                    "occupation_name": "Office and administrative support",
-                    "employment": 16460963
-                },
-                {
-                    "occupation_code": 16,
-                    "occupation_name": "Sales",
-                    "employment": 14333905
-                },
-                {
-                    "occupation_code": 22,
-                    "occupation_name": "Transportation and material moving",
-                    "employment": 11624789
-                },
-                {
-                    "occupation_code": 10,
-                    "occupation_name": "Healthcare practitioners and technical",
-                    "employment": 10267033
-                },
-                {
-                    "occupation_code": 2,
-                    "occupation_name": "Business and financial operations",
-                    "employment": 10202944
-                },
-                {
-                    "occupation_code": 8,
-                    "occupation_name": "Education, training, and library",
-                    "employment": 8808323
-                },
-                {
-                    "occupation_code": 19,
-                    "occupation_name": "Construction and extraction",
-                    "employment": 8650116
-                },
-                {
-                    "occupation_code": 13,
-                    "occupation_name": "Food preparation and serving",
-                    "employment": 8519927
-                },
-                {
-                    "occupation_code": 21,
-                    "occupation_name": "Production",
-                    "employment": 7928898
-                }
-            ],
-            "parttime_employment_rate": 23.95,
-            "parttime_count": 37433473,
-            "total_employed_count": 156288790,
-            "median_overtime_hours": 10,
-            "overtime_by_industry": [
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "median_ot_hours": 10.75
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "median_ot_hours": 8
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_ot_hours": 7.93
-                }
-            ],
-            "lowest_wage_industries": [
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "median_hourly_wage": 15
-                },
-                {
-                    "industry_code": 44,
-                    "industry_name": "Arts, entertainment, and recreation",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 45,
-                    "industry_name": "Accommodation",
-                    "median_hourly_wage": 17
-                },
-                {
-                    "industry_code": 1,
-                    "industry_name": "Agriculture",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "median_hourly_wage": 19
-                },
-                {
-                    "industry_code": 43,
-                    "industry_name": "Social assistance services",
-                    "median_hourly_wage": 19
-                },
-                {
-                    "industry_code": 14,
-                    "industry_name": "Food manufacturing",
-                    "median_hourly_wage": 19.06
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "median_hourly_wage": 19.2
-                },
-                {
-                    "industry_code": 48,
-                    "industry_name": "Personal and laundry services",
-                    "median_hourly_wage": 19.5
-                }
-            ]
+            "discouraged_rate": 241.09
         },
         {
+            "month": 2,
+            "unemployment_rate": 4.45,
+            "min_wage_pct": 5.29,
             "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 203.3
+        },
+        {
+            "month": 3,
+            "unemployment_rate": 4.24,
+            "min_wage_pct": 3.91,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 192.96
+        },
+        {
+            "month": 4,
+            "unemployment_rate": 3.86,
+            "min_wage_pct": 4.12,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 171.82
+        },
+        {
+            "month": 5,
+            "unemployment_rate": 4,
+            "min_wage_pct": 5.06,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 131.83
+        },
+        {
+            "month": 6,
+            "unemployment_rate": 4.35,
+            "min_wage_pct": 3.97,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 209.02
+        },
+        {
             "month": 7,
-            "min_wage_percentage": 1,
-            "min_wage_count": 726690,
-            "min_wage_total": 72902415,
             "unemployment_rate": 4.57,
-            "unemployed_count": 7846967,
-            "labor_force_count": 171645635,
-            "labor_force_participation_rate": 62.69,
-            "total_population_count": 273785314,
-            "median_hourly_wage": 21,
-            "top_industries": [
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "employment": 16981645
-                },
-                {
-                    "industry_code": 36,
-                    "industry_name": "Professional, scientific, and technical services",
-                    "employment": 14760835
-                },
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "employment": 12646639
-                },
-                {
-                    "industry_code": 40,
-                    "industry_name": "Educational services",
-                    "employment": 12605414
-                },
-                {
-                    "industry_code": 42,
-                    "industry_name": "Health care services, except hospitals",
-                    "employment": 11673968
-                },
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "employment": 9676334
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "employment": 8706646
-                },
-                {
-                    "industry_code": 41,
-                    "industry_name": "Hospitals",
-                    "employment": 7982066
-                },
-                {
-                    "industry_code": 51,
-                    "industry_name": "Public administration",
-                    "employment": 7882273
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "employment": 7301978
-                }
-            ],
-            "top_occupations": [
-                {
-                    "occupation_code": 1,
-                    "occupation_name": "Management",
-                    "employment": 20679171
-                },
-                {
-                    "occupation_code": 17,
-                    "occupation_name": "Office and administrative support",
-                    "employment": 16553064
-                },
-                {
-                    "occupation_code": 16,
-                    "occupation_name": "Sales",
-                    "employment": 14508282
-                },
-                {
-                    "occupation_code": 22,
-                    "occupation_name": "Transportation and material moving",
-                    "employment": 11665134
-                },
-                {
-                    "occupation_code": 2,
-                    "occupation_name": "Business and financial operations",
-                    "employment": 10305016
-                },
-                {
-                    "occupation_code": 10,
-                    "occupation_name": "Healthcare practitioners and technical",
-                    "employment": 10125921
-                },
-                {
-                    "occupation_code": 19,
-                    "occupation_name": "Construction and extraction",
-                    "employment": 8928455
-                },
-                {
-                    "occupation_code": 13,
-                    "occupation_name": "Food preparation and serving",
-                    "employment": 8485101
-                },
-                {
-                    "occupation_code": 8,
-                    "occupation_name": "Education, training, and library",
-                    "employment": 8370968
-                },
-                {
-                    "occupation_code": 21,
-                    "occupation_name": "Production",
-                    "employment": 7646715
-                }
-            ],
-            "parttime_employment_rate": 24.6,
-            "parttime_count": 37894472,
-            "total_employed_count": 154027952,
-            "median_overtime_hours": 10,
-            "overtime_by_industry": [
-                {
-                    "industry_code": 4,
-                    "industry_name": "Construction",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 23,
-                    "industry_name": "Transportation and warehousing",
-                    "median_ot_hours": 10
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_ot_hours": 8
-                }
-            ],
-            "lowest_wage_industries": [
-                {
-                    "industry_code": 46,
-                    "industry_name": "Food services and drinking places",
-                    "median_hourly_wage": 15
-                },
-                {
-                    "industry_code": 48,
-                    "industry_name": "Personal and laundry services",
-                    "median_hourly_wage": 16.36
-                },
-                {
-                    "industry_code": 22,
-                    "industry_name": "Retail trade",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 44,
-                    "industry_name": "Arts, entertainment, and recreation",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 49,
-                    "industry_name": "Membership associations and organizations",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 50,
-                    "industry_name": "Private households",
-                    "median_hourly_wage": 18
-                },
-                {
-                    "industry_code": 38,
-                    "industry_name": "Administrative and support services",
-                    "median_hourly_wage": 19
-                },
-                {
-                    "industry_code": 43,
-                    "industry_name": "Social assistance services",
-                    "median_hourly_wage": 19
-                },
-                {
-                    "industry_code": 1,
-                    "industry_name": "Agriculture",
-                    "median_hourly_wage": 20
-                },
-                {
-                    "industry_code": 34,
-                    "industry_name": "Real estate",
-                    "median_hourly_wage": 20
-                }
-            ]
+            "min_wage_pct": 3.92,
+            "year": 2025,
+            "median_hourly_wage": 20,
+            "discouraged_rate": 163.22
+        },
+        {
+            "month": 8,
+            "unemployment_rate": 4.53,
+            "min_wage_pct": 3.5,
+            "year": 2025,
+            "median_hourly_wage": 20.25,
+            "discouraged_rate": 148.37
         }
     ],
-    "generated_at": "2025-11-15T20:07:36.697"
+    "industries": [
+        {
+            "industry_name": "Agriculture, forestry, fishing, and hunting",
+            "industry_code": 1,
+            "q1": 16,
+            "max": 74.93,
+            "min": 6.2,
+            "q2": 17.5,
+            "q3": 21
+        },
+        {
+            "industry_name": "Mining",
+            "industry_code": 2,
+            "q1": 22,
+            "max": 74.93,
+            "min": 11,
+            "q2": 26.03,
+            "q3": 32.13
+        },
+        {
+            "industry_name": "Construction",
+            "industry_code": 3,
+            "q1": 20,
+            "max": 74.93,
+            "min": 1,
+            "q2": 25,
+            "q3": 33
+        },
+        {
+            "industry_name": "Manufacturing",
+            "industry_code": 4,
+            "q1": 19,
+            "max": 74.93,
+            "min": 1,
+            "q2": 23,
+            "q3": 30
+        },
+        {
+            "industry_name": "Wholesale and retail trade",
+            "industry_code": 5,
+            "q1": 15,
+            "max": 74.93,
+            "min": 1,
+            "q2": 18,
+            "q3": 22.1
+        },
+        {
+            "industry_name": "Transportation and utilities",
+            "industry_code": 6,
+            "q1": 18.25,
+            "max": 74.93,
+            "min": 5.5,
+            "q2": 22.5,
+            "q3": 30
+        },
+        {
+            "industry_name": "Information",
+            "industry_code": 7,
+            "q1": 18,
+            "max": 74.93,
+            "min": 2.15,
+            "q2": 24,
+            "q3": 34.5
+        },
+        {
+            "industry_name": "Financial activities",
+            "industry_code": 8,
+            "q1": 19,
+            "max": 74.93,
+            "min": 6.5,
+            "q2": 23,
+            "q3": 28.85
+        },
+        {
+            "industry_name": "Professional and business services",
+            "industry_code": 9,
+            "q1": 17.5,
+            "max": 74.93,
+            "min": 1,
+            "q2": 22,
+            "q3": 30
+        },
+        {
+            "industry_name": "Educational and health services",
+            "industry_code": 10,
+            "q1": 17.5,
+            "max": 74.93,
+            "min": 1,
+            "q2": 22,
+            "q3": 32
+        },
+        {
+            "industry_name": "Leisure and hospitality",
+            "industry_code": 11,
+            "q1": 13,
+            "max": 74.93,
+            "min": 1,
+            "q2": 16,
+            "q3": 19.92
+        },
+        {
+            "industry_name": "Other services",
+            "industry_code": 12,
+            "q1": 15.5,
+            "max": 74.93,
+            "min": 0.2,
+            "q2": 20,
+            "q3": 25
+        }
+    ],
+    "lookback_months": 12,
+    "occupations": [
+        {
+            "q1": 19.5,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Management",
+            "occupation_code": 1,
+            "q2": 25,
+            "q3": 34
+        },
+        {
+            "q1": 20.05,
+            "max": 74.93,
+            "min": 5,
+            "occupation_name": "Business and financial operations",
+            "occupation_code": 2,
+            "q2": 26,
+            "q3": 35
+        },
+        {
+            "q1": 23,
+            "max": 74.93,
+            "min": 7,
+            "occupation_name": "Computer and mathematical",
+            "occupation_code": 3,
+            "q2": 30.5,
+            "q3": 46
+        },
+        {
+            "q1": 24.45,
+            "max": 74.93,
+            "min": 1.4,
+            "occupation_name": "Architecture and engineering",
+            "occupation_code": 4,
+            "q2": 32,
+            "q3": 45
+        },
+        {
+            "q1": 21,
+            "max": 74.93,
+            "min": 10,
+            "occupation_name": "Life, physical, and social science",
+            "occupation_code": 5,
+            "q2": 27.81,
+            "q3": 37
+        },
+        {
+            "q1": 20,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Community and social service",
+            "occupation_code": 6,
+            "q2": 25,
+            "q3": 36.25
+        },
+        {
+            "q1": 20.16,
+            "max": 74.93,
+            "min": 13.6,
+            "occupation_name": "Legal",
+            "occupation_code": 7,
+            "q2": 26.45,
+            "q3": 35
+        },
+        {
+            "q1": 16,
+            "max": 74.93,
+            "min": 7.25,
+            "occupation_name": "Education, training, and library",
+            "occupation_code": 8,
+            "q2": 20,
+            "q3": 29
+        },
+        {
+            "q1": 18,
+            "max": 74.93,
+            "min": 2.5,
+            "occupation_name": "Arts, design, entertainment, sports, and media",
+            "occupation_code": 9,
+            "q2": 24,
+            "q3": 32
+        },
+        {
+            "q1": 23.05,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Healthcare practitioners and technical",
+            "occupation_code": 10,
+            "q2": 34,
+            "q3": 45.92
+        },
+        {
+            "q1": 16,
+            "max": 74.93,
+            "min": 2.35,
+            "occupation_name": "Healthcare support",
+            "occupation_code": 11,
+            "q2": 19,
+            "q3": 22
+        },
+        {
+            "q1": 16,
+            "max": 73.98,
+            "min": 2,
+            "occupation_name": "Protective service",
+            "occupation_code": 12,
+            "q2": 18.5,
+            "q3": 23
+        },
+        {
+            "q1": 12.5,
+            "max": 73.98,
+            "min": 1.1,
+            "occupation_name": "Food preparation and serving",
+            "occupation_code": 13,
+            "q2": 15.5,
+            "q3": 18.25
+        },
+        {
+            "q1": 15,
+            "max": 74.93,
+            "min": 2,
+            "occupation_name": "Building and grounds cleaning and maintenance",
+            "occupation_code": 14,
+            "q2": 18,
+            "q3": 22
+        },
+        {
+            "q1": 14,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Personal care and service",
+            "occupation_code": 15,
+            "q2": 16.85,
+            "q3": 20
+        },
+        {
+            "q1": 14.5,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Sales",
+            "occupation_code": 16,
+            "q2": 17,
+            "q3": 20.75
+        },
+        {
+            "q1": 17,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Office and administrative support",
+            "occupation_code": 17,
+            "q2": 20,
+            "q3": 25
+        },
+        {
+            "q1": 16,
+            "max": 74.93,
+            "min": 6.2,
+            "occupation_name": "Farming, fishing, and forestry",
+            "occupation_code": 18,
+            "q2": 17,
+            "q3": 20
+        },
+        {
+            "q1": 20,
+            "max": 74.93,
+            "min": 1.15,
+            "occupation_name": "Construction and extraction",
+            "occupation_code": 19,
+            "q2": 25,
+            "q3": 34
+        },
+        {
+            "q1": 20,
+            "max": 74.93,
+            "min": 0.2,
+            "occupation_name": "Installation, maintenance, and repair",
+            "occupation_code": 20,
+            "q2": 27,
+            "q3": 34
+        },
+        {
+            "q1": 18,
+            "max": 74.93,
+            "min": 1,
+            "occupation_name": "Production",
+            "occupation_code": 21,
+            "q2": 22,
+            "q3": 27
+        },
+        {
+            "q1": 16,
+            "max": 74.93,
+            "min": 4.8,
+            "occupation_name": "Transportation and material moving",
+            "occupation_code": 22,
+            "q2": 19.6,
+            "q3": 24.02
+        }
+    ],
+    "generated_at": "2025-11-18T13:24:17.760"
 }

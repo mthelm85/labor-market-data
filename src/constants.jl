@@ -66,6 +66,25 @@ const INDUSTRY_NAMES = Dict(
     52 => "Armed forces"
 )
 
+# Major industry recode mapping for `PRMJIND1` (job 1)
+# Edited universe: PRDTIND1 = 1-51
+const PRMJIND1_NAMES = Dict(
+    1 => "Agriculture, forestry, fishing, and hunting",
+    2 => "Mining",
+    3 => "Construction",
+    4 => "Manufacturing",
+    5 => "Wholesale and retail trade",
+    6 => "Transportation and utilities",
+    7 => "Information",
+    8 => "Financial activities",
+    9 => "Professional and business services",
+    10 => "Educational and health services",
+    11 => "Leisure and hospitality",
+    12 => "Other services",
+    13 => "Public administration",
+    14 => "Armed Forces"
+)
+
 # Occupation name mapping (PRDTOCC1)
 const OCCUPATION_NAMES = Dict(
     1 => "Management",

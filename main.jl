@@ -7,7 +7,7 @@ using StatsBase
 # Load all modules
 include("src/constants.jl")
 include("src/fetch.jl")
-include("src/compute.jl")
+include("src/compute_stats.jl")
 include("src/output.jl")
 
 # Main pipeline: fetch data for last 12 months and compute statistics
@@ -17,62 +17,107 @@ function main()
     if isnothing(api_key)
         error("CENSUS_API_KEY environment variable not set")
     end
-    
-    # Calculate date range (last 12 months)
+
+    # Calculate date range
     current_date = today()
     # Use previous month since current month data may not be available yet
     end_date = current_date - Month(1)
-    start_date = end_date - Month(LOOKBACK_MONTHS - 1)
-    
-    println("Fetching data from $(year(start_date))-$(month(start_date)) to $(year(end_date))-$(month(end_date))")
-    
-    # Collect data for each month
-    results = []
-    for i in 0:(LOOKBACK_MONTHS-1)
+
+    # Fetch data for the configured lookback window.
+    # Monthly stats and the aggregation window both use `LOOKBACK_MONTHS`.
+    months_count = LOOKBACK_MONTHS
+
+    println("Fetching data for the last $months_count months through $(year(end_date))-$(lpad(month(end_date),2,'0'))")
+
+    # Collect DataFrames and monthly stats
+    dfs = DataFrame[]
+    monthly = []
+
+    for i in 0:(months_count-1)
         target_date = end_date - Month(i)
         y = year(target_date)
         m = month(target_date)
-        
+
         println("Processing $y-$(lpad(m, 2, '0'))...")
-        
-        # Fetch data once
+
         df = fetch_cps_data(y, m, api_key)
-        
-        if !isnothing(df)
-            # Compute all statistics from the same data
-            println("  Computing statistics...")
-            min_wage_stats = compute_min_wage_percentage(df)
-            unemployment_stats = compute_unemployment_rate(df)
-            lfpr_stats = compute_lfpr(df)
-            median_wage_stats = compute_median_wage(df)
-            top_industries = compute_top_industries(df)
-            top_occupations = compute_top_occupations(df)
-            parttime_stats = compute_parttime_rate(df)
-            overtime_stats = compute_median_overtime_hours(df)
-            overtime_industry_stats = compute_overtime_by_industry(df)
-            wage_industry_stats = compute_median_wage_by_industry(df)
-            
-            # Combine all statistics
-            month_data = merge(
-                (year = y, month = m),
-                min_wage_stats,
-                unemployment_stats,
-                lfpr_stats,
-                median_wage_stats,
-                top_industries,
-                top_occupations,
-                parttime_stats,
-                overtime_stats,
-                overtime_industry_stats,
-                wage_industry_stats
+        if isnothing(df)
+            continue
+        end
+
+        push!(dfs, df)
+
+        # For the monthly outputs we only produce stats for the most recent LOOKBACK_MONTHS
+        if i < LOOKBACK_MONTHS
+            println("  Computing monthly statistics...")
+            # compute_stats.jl provides these functions: unemployment_rate, at_below_mw, discouraged_rate, median_hourly_wage
+            ustat = unemployment_rate(df)
+            mw = at_below_mw(df, FEDERAL_MIN_WAGE)
+            dstat = discouraged_rate(df)
+            mwage = median_hourly_wage(df)
+
+            month_obj = Dict(
+                "year" => y,
+                "month" => m,
+                "unemployment_rate" => round(ustat, digits=2),
+                "min_wage_pct" => round(mw.pct_at_below_mw, digits=2),
+                "discouraged_rate" => round(dstat, digits=2),
+                "median_hourly_wage" => round(mwage, digits=2)
             )
-            
-            push!(results, month_data)
+
+            push!(monthly, month_obj)
         end
     end
-    
-    # Write results to file
-    write_results(results, OUTPUT_FILE)
+
+    # Build 12-month combined DataFrame for industry/occupation aggregations
+    if isempty(dfs)
+        error("No data fetched for aggregation period")
+    end
+
+    df_12m = vcat(dfs...)
+
+    println("Computing 12-month wage distributions by industry and occupation...")
+    ind_stats = wage_distribution_by_industry(df_12m)
+    occ_stats = wage_distribution_by_occupation(df_12m)
+
+    # Build industry quantile objects from ind_stats (fields: PRMJIND1, min, q1, q2, q3, max)
+    industries = []
+    for row in eachrow(ind_stats)
+        push!(industries, Dict(
+            "industry_code" => row.PRMJIND1,
+            "industry_name" => get(PRMJIND1_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
+            "min" => round(row.min, digits=2),
+            "q1" => round(row.q1, digits=2),
+            "q2" => round(row.q2, digits=2),
+            "q3" => round(row.q3, digits=2),
+            "max" => round(row.max, digits=2)
+        ))
+    end
+
+    # Build occupation quantile objects from occ_stats (fields: PRDTOCC1, min, q1, q2, q3, max)
+    occupations = []
+    for row in eachrow(occ_stats)
+        push!(occupations, Dict(
+            "occupation_code" => row.PRDTOCC1,
+            "occupation_name" => get(OCCUPATION_NAMES, row.PRDTOCC1, "Occupation $(row.PRDTOCC1)"),
+            "min" => round(row.min, digits=2),
+            "q1" => round(row.q1, digits=2),
+            "q2" => round(row.q2, digits=2),
+            "q3" => round(row.q3, digits=2),
+            "max" => round(row.max, digits=2)
+        ))
+    end
+
+    # Final output object
+    output = Dict(
+        "generated_at" => string(now()),
+        "lookback_months" => LOOKBACK_MONTHS,
+        "monthly" => monthly,
+        "industries" => industries,
+        "occupations" => occupations
+    )
+
+    write_results(output, OUTPUT_FILE)
 end
 
 # Run the pipeline

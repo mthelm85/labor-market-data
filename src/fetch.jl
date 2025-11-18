@@ -8,7 +8,7 @@ function fetch_cps_data(year::Int, month::Int, api_key::String)
     
     # Request all variables we might need for various statistics
     params = Dict(
-        "get" => "PWCMPWGT,PWORWGT,PTERNHLY,PEMLR,PEIO1COW,PEERNHRY,PEHRACT1,PRDTIND1,PRDTOCC1,PRHRUSL",
+        "get" => "PWCMPWGT,PWORWGT,PTERNHLY,PTERNH1C,PEMLR,PEIO1COW,PEERNHRY,PRDTIND1,PRDTOCC1,PRMJIND1,PRMJOCC1,PRHRUSL,PRTAGE,PEERNHRO,PRDISC",
         "key" => api_key
     )
     
@@ -30,10 +30,15 @@ function fetch_cps_data(year::Int, month::Int, api_key::String)
         df.PEMLR = parse.(Int64, df.PEMLR)
         df.PEIO1COW = parse.(Int64, df.PEIO1COW)
         df.PEERNHRY = parse.(Int64, df.PEERNHRY)
-        df.PEHRACT1 = parse.(Int64, df.PEHRACT1)
         df.PRDTIND1 = parse.(Int64, df.PRDTIND1)
         df.PRDTOCC1 = parse.(Int64, df.PRDTOCC1)
         df.PRHRUSL = tryparse.(Int64, df.PRHRUSL)
+        df.PRTAGE = parse.(Int64, df.PRTAGE)
+        df.PEERNHRO = parse.(Int64, df.PEERNHRO)
+        df.PRDISC = parse.(Int64, df.PRDISC)
+        df.PTERNH1C = parse.(Float64, df.PTERNH1C)
+        df.PRMJIND1 = parse.(Int64, df.PRMJIND1)
+        df.PRMJOCC1 = parse.(Int64, df.PRMJOCC1)
         
         return df
         
