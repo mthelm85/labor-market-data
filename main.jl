@@ -51,22 +51,22 @@ function main()
         mw = at_below_mw(df, FEDERAL_MIN_WAGE)
         ystat = youth_participation_rate(df)
         mwage = median_hourly_wage(df)
-        
+
         # Unemployment by industry
         unemp_by_ind = unemployment_rate_by_sector(df)
         ind_unemp_array = [Dict(
             "industry_code" => row.PRMJIND1,
             "industry_name" => get(PRMJIND1_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
             "unemployment_rate" => round(row.unemployment_rate, digits=2)
-        ) for row in eachrow(unemp_by_ind) if 1 ≤ row.PRMJIND1 ≤ 14]
-        
+        ) for row in eachrow(unemp_by_ind)]
+
         # Unemployment by occupation
         unemp_by_occ = unemployment_rate_by_occupation(df)
         occ_unemp_array = [Dict(
-            "occupation_code" => row.PRDTOCC1,
-            "occupation_name" => get(OCCUPATION_NAMES, row.PRDTOCC1, "Occupation $(row.PRDTOCC1)"),
+            "occupation_code" => row.PRMJOCC1,
+            "occupation_name" => get(OCCUPATION_NAMES, row.PRMJOCC1, "Occupation $(row.PRMJOCC1)"),
             "unemployment_rate" => round(row.unemployment_rate, digits=2)
-        ) for row in eachrow(unemp_by_occ) if 1 ≤ row.PRDTOCC1 ≤ 22]
+        ) for row in eachrow(unemp_by_occ)]
 
         monthly[fetch_count] = Dict(
             "year" => y,
@@ -93,30 +93,30 @@ function main()
     df_all = vcat(dfs...)
 
     println("Computing wage distributions by industry and occupation...")
-    
+
     # Filter employed once
     employed_df = @rsubset(df_all, :PEMLR ∈ [1, 2])
-    
+
     # Compute distributions and employment
     ind_stats = wage_distribution_by_sector(df_all)
     occ_stats = wage_distribution_by_occupation(df_all)
-    
+
     # Build employment dictionaries for O(1) lookup
-    ind_employment_dict = Dict{Int, Float64}()
+    ind_employment_dict = Dict{Int,Float64}()
     for row in groupby(employed_df, :PRMJIND1)
         ind_employment_dict[first(row.PRMJIND1)] = sum(row.PWCMPWGT)
     end
-    
-    occ_employment_dict = Dict{Int, Float64}()
-    for row in groupby(employed_df, :PRDTOCC1)
-        occ_employment_dict[first(row.PRDTOCC1)] = sum(row.PWCMPWGT)
+
+    occ_employment_dict = Dict{Int,Float64}()
+    for row in groupby(employed_df, :PRMJOCC1)
+        occ_employment_dict[first(row.PRMJOCC1)] = sum(row.PWCMPWGT)
     end
 
     # Build industry objects with O(1) lookups
     industries = map(eachrow(ind_stats)) do row
         total_emp = get(ind_employment_dict, row.PRMJIND1, 0.0)
         avg_emp = fetch_count > 0 ? round(Int, total_emp / fetch_count) : 0
-        
+
         Dict(
             "industry_code" => row.PRMJIND1,
             "industry_name" => get(PRMJIND1_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
@@ -131,12 +131,12 @@ function main()
 
     # Build occupation objects with O(1) lookups
     occupations = map(eachrow(occ_stats)) do row
-        total_emp = get(occ_employment_dict, row.PRDTOCC1, 0.0)
+        total_emp = get(occ_employment_dict, row.PRMJOCC1, 0.0)
         avg_emp = fetch_count > 0 ? round(Int, total_emp / fetch_count) : 0
-        
+
         Dict(
-            "occupation_code" => row.PRDTOCC1,
-            "occupation_name" => get(OCCUPATION_NAMES, row.PRDTOCC1, "Occupation $(row.PRDTOCC1)"),
+            "occupation_code" => row.PRMJOCC1,
+            "occupation_name" => get(OCCUPATION_NAMES, row.PRMJOCC1, "Occupation $(row.PRMJOCC1)"),
             "avg_monthly_employment" => avg_emp,
             "p10" => round(row.p10, digits=2),
             "p25" => round(row.p25, digits=2),

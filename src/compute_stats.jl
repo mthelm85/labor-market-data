@@ -69,10 +69,10 @@ function wage_distribution_by_occupation(df::DataFrame)
         :PEIO1COW ∈ [4, 5, 7]
         :PTERNHLY > 0
         :PWORWGT > 0 
-        1 ≤ :PRDTOCC1 ≤ 22  
+        1 ≤ :PRMJOCC1 ≤ 22  
     end
 
-    occ_stats = @by universe :PRDTOCC1 begin
+    occ_stats = @by universe :PRMJOCC1 begin
         :p10 = quantile(:PTERNHLY, weights(:PWORWGT), 0.1)
         :p25 = quantile(:PTERNHLY, weights(:PWORWGT), 0.25)
         :p50 = quantile(:PTERNHLY, weights(:PWORWGT), 0.5)
@@ -96,7 +96,7 @@ end
 function employment_by_occupation(df::DataFrame)
     employed = get_employed(df)
 
-    occ_stats = @by employed :PRDTOCC1 begin
+    occ_stats = @by employed :PRMJOCC1 begin
         :total_employed = sum(:PWCMPWGT)
     end
 
@@ -104,19 +104,23 @@ function employment_by_occupation(df::DataFrame)
 end
 
 function unemployment_rate_by_sector(df::DataFrame)
-    df2 = @by df :PRMJIND1 begin
-        :labor_force = sum(:PWCMPWGT[:PEMLR .∈ Ref([1, 2, 3, 4])])
-        :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
+    @chain df begin
+        @rsubset 1 ≤ :PRMJIND1 ≤ 14
+        @by :PRMJIND1 begin
+            :labor_force = sum(:PWCMPWGT)
+            :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
+        end
+        @rtransform :unemployment_rate = (:unemployed / :labor_force) * 100
     end
-
-    return @rtransform df2 :unemployment_rate = (:unemployed / :labor_force) * 100
 end
 
 function unemployment_rate_by_occupation(df::DataFrame)
-    df2 = @by df :PRDTOCC1 begin
-        :labor_force = sum(:PWCMPWGT[:PEMLR .∈ Ref([1, 2, 3, 4])])
-        :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
+    @chain df begin
+        @rsubset 1 ≤ :PRMJOCC1 ≤ 22
+        @by :PRMJOCC1 begin
+            :labor_force = sum(:PWCMPWGT)
+            :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
+        end
+        @rtransform :unemployment_rate = (:unemployed / :labor_force) * 100
     end
-
-    return @rtransform df2 :unemployment_rate = (:unemployed / :labor_force) * 100
 end

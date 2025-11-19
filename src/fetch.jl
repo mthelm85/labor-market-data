@@ -7,7 +7,7 @@ function fetch_cps_data(year::Int, month::Int, api_key::String; max_retries::Int
     url = "https://api.census.gov/data/$year/cps/basic/$month_name"
     
     params = Dict(
-        "get" => "PWCMPWGT,PWORWGT,PTERNHLY,PEMLR,PEIO1COW,PEERNHRY,PRDTIND1,PRDTOCC1,PRMJIND1,PRMJOCC1,PRHRUSL,PRTAGE",
+        "get" => "PWCMPWGT,PWORWGT,PTERNHLY,PEMLR,PEIO1COW,PEERNHRY,PRMJIND1,PRMJOCC1,PRHRUSL,PRTAGE",
         "key" => api_key
     )
     
@@ -32,8 +32,6 @@ function fetch_cps_data(year::Int, month::Int, api_key::String; max_retries::Int
                 PEMLR = Vector{Int64}(undef, n_rows),
                 PEIO1COW = Vector{Int64}(undef, n_rows),
                 PEERNHRY = Vector{Int64}(undef, n_rows),
-                PRDTIND1 = Vector{Int64}(undef, n_rows),
-                PRDTOCC1 = Vector{Int64}(undef, n_rows),
                 PRMJIND1 = Vector{Int64}(undef, n_rows),
                 PRMJOCC1 = Vector{Int64}(undef, n_rows),
                 PRHRUSL = Vector{Union{Int64, Missing}}(undef, n_rows),
@@ -47,12 +45,10 @@ function fetch_cps_data(year::Int, month::Int, api_key::String; max_retries::Int
                 df.PEMLR[i] = safe_parse_int(row[4])
                 df.PEIO1COW[i] = safe_parse_int(row[5])
                 df.PEERNHRY[i] = safe_parse_int(row[6])
-                df.PRDTIND1[i] = safe_parse_int(row[7])
-                df.PRDTOCC1[i] = safe_parse_int(row[8])
-                df.PRMJIND1[i] = safe_parse_int(row[9])
-                df.PRMJOCC1[i] = safe_parse_int(row[10])
-                df.PRHRUSL[i] = something(tryparse(Int64, row[11]), missing)
-                df.PRTAGE[i] = safe_parse_int(row[12])
+                df.PRMJIND1[i] = safe_parse_int(row[7])
+                df.PRMJOCC1[i] = safe_parse_int(row[8])
+                df.PRHRUSL[i] = something(tryparse(Int64, row[9]), missing)
+                df.PRTAGE[i] = safe_parse_int(row[10])
             end
             
             println("  Fetched data for $year-$month")
