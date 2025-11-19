@@ -10,57 +10,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.91,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.63,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.32,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.28,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.22,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.2,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.14,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.59,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 2.97,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 4.93,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 89.03,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -147,57 +147,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.76,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.65,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.52,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.32,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.09,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.64,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.6,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.19,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 2.6,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 4.89,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -284,57 +284,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.97,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.12,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.17,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.3,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.17,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.53,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 7.68,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.41,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.03,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.68,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 93.76,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -421,57 +421,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.05,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.9,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.78,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.98,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 4.3,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 7.93,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 7.7,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.13,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.71,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.22,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 0,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -558,57 +558,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.08,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.74,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.56,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.65,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.51,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 7.73,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 6.64,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.75,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.32,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.71,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 14.31,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -695,57 +695,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.83,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.44,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.04,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 2.9,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 2.89,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.77,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.9,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 1.57,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.6,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.09,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 56.61,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -832,57 +832,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.95,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.63,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.45,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.01,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.03,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 4.86,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 3.78,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.51,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.06,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.58,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -969,57 +969,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.87,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.49,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.28,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.92,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.02,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 4.9,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 3.81,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.12,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.11,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.77,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 63.26,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -1106,57 +1106,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.88,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.74,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.62,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.68,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 2.93,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 3.23,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.14,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 1.92,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.08,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.72,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 86.04,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -1243,57 +1243,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.07,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.63,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.72,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.85,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.9,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.55,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.53,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 1.8,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.15,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.75,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -1380,57 +1380,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.07,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 3.97,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.05,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.87,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.16,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.74,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 1.58,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.24,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.01,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 76.2,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -1517,57 +1517,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.74,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.07,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.37,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.8,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.47,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 10.96,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.16,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 1.86,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.68,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.27,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -1654,57 +1654,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.67,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.86,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.14,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.69,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.43,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 7.31,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.13,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 1.99,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.48,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.96,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -1791,57 +1791,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.94,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.72,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.3,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.33,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.04,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 9.28,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.43,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.61,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.77,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.33,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 78.4,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -1928,57 +1928,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.14,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.07,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.15,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.49,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.64,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 11.73,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 7.66,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.97,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.7,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.75,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 83.39,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -2065,57 +2065,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.38,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.05,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.01,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.65,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 4.04,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 10.56,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 7.29,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 3.05,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.37,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.59,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -2202,57 +2202,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.28,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.08,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.43,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.71,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.55,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 9.98,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 6.27,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.27,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.39,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.62,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 57.23,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -2339,57 +2339,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.39,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.59,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.1,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.6,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.18,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.44,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.86,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.77,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.88,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.01,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 56.98,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -2476,57 +2476,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.98,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 1.93,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.87,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.77,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 10.59,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.66,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.56,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.17,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.6,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -2613,57 +2613,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.19,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.86,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.93,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.44,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 2.87,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 4.71,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.46,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.55,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.43,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.59,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -2750,57 +2750,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.35,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 3.29,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.03,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.57,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.57,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 9.39,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.77,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 3.03,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.96,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.77,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 80.62,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -2887,57 +2887,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.43,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 3.15,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.9,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.53,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.6,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 11.65,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 3.98,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.57,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.99,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.02,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -3024,57 +3024,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.2,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.26,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.64,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.4,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.63,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 8.38,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.25,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.3,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.27,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.33,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 72.63,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -3161,57 +3161,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.24,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.31,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.29,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.8,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.42,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 3.84,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.28,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.19,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.68,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.46,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 8.88,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -3298,57 +3298,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.25,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.11,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.07,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.08,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 4.05,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 5.43,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.49,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.94,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.79,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.65,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -3435,57 +3435,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 1.96,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.09,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.04,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.09,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.07,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 11.18,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 6.14,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 3.84,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.4,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 4.98,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 94.48,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -3572,57 +3572,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.1,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.24,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 6.01,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.89,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.57,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 13.07,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 7.74,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 5.11,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.18,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.14,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 6.55,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -3709,57 +3709,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.29,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.37,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 6.15,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.25,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.67,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 12.37,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 8.21,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 3.63,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.32,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 67.84,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -3846,57 +3846,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.24,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.34,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.45,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.38,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.62,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 11.37,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 6.1,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.71,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.07,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.46,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 97.37,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -3983,57 +3983,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.18,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.12,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.5,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.15,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.58,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 7.01,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 5.9,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 2.64,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.01,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.02,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -4120,57 +4120,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.56,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 2.18,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.77,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.38,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.6,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.53,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 3.66,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 3.32,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.6,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.73,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -4257,57 +4257,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.34,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 3.06,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 4.91,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.78,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.61,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 4.94,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.42,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 3.2,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.06,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 5.83,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 93.29,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -4394,57 +4394,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.14,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 3.63,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.07,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 3.91,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 3.81,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 3.98,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 4.12,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 1.96,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 4.97,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.26,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 100,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -4531,57 +4531,57 @@
             "unemployment_by_occupation": [
                 {
                     "unemployment_rate": 2.15,
-                    "occupation_name": "Management",
+                    "occupation_name": "Management, business, and financial occupations",
                     "occupation_code": 1
                 },
                 {
                     "unemployment_rate": 3.1,
-                    "occupation_name": "Business and financial operations",
+                    "occupation_name": "Professional and related occupations",
                     "occupation_code": 2
                 },
                 {
                     "unemployment_rate": 5.61,
-                    "occupation_name": "Computer and mathematical",
+                    "occupation_name": "Service occupations",
                     "occupation_code": 3
                 },
                 {
                     "unemployment_rate": 4.73,
-                    "occupation_name": "Architecture and engineering",
+                    "occupation_name": "Sales and related occupations",
                     "occupation_code": 4
                 },
                 {
                     "unemployment_rate": 4.19,
-                    "occupation_name": "Life, physical, and social science",
+                    "occupation_name": "Office and administrative support occupations",
                     "occupation_code": 5
                 },
                 {
                     "unemployment_rate": 6.28,
-                    "occupation_name": "Community and social service",
+                    "occupation_name": "Farming, fishing, and forestry occupations",
                     "occupation_code": 6
                 },
                 {
                     "unemployment_rate": 3.94,
-                    "occupation_name": "Legal",
+                    "occupation_name": "Construction and extraction occupations",
                     "occupation_code": 7
                 },
                 {
                     "unemployment_rate": 3.4,
-                    "occupation_name": "Education, training, and library",
+                    "occupation_name": "Installation, maintenance, and repair occupations",
                     "occupation_code": 8
                 },
                 {
                     "unemployment_rate": 3.78,
-                    "occupation_name": "Arts, design, entertainment, sports, and media",
+                    "occupation_name": "Production occupations",
                     "occupation_code": 9
                 },
                 {
                     "unemployment_rate": 6.33,
-                    "occupation_name": "Healthcare practitioners and technical",
+                    "occupation_name": "Transportation and material moving occupations",
                     "occupation_code": 10
                 },
                 {
                     "unemployment_rate": 79.71,
-                    "occupation_name": "Healthcare support",
+                    "occupation_name": "Armed Forces",
                     "occupation_code": 11
                 }
             ],
@@ -4789,7 +4789,7 @@
             "p25": 19,
             "p50": 24.5,
             "p75": 32,
-            "occupation_name": "Management",
+            "occupation_name": "Management, business, and financial occupations",
             "occupation_code": 1,
             "p90": 46
         },
@@ -4799,7 +4799,7 @@
             "p25": 20,
             "p50": 28,
             "p75": 40,
-            "occupation_name": "Business and financial operations",
+            "occupation_name": "Professional and related occupations",
             "occupation_code": 2,
             "p90": 55
         },
@@ -4809,7 +4809,7 @@
             "p25": 14,
             "p50": 16,
             "p75": 20,
-            "occupation_name": "Computer and mathematical",
+            "occupation_name": "Service occupations",
             "occupation_code": 3,
             "p90": 24.7
         },
@@ -4819,7 +4819,7 @@
             "p25": 14,
             "p50": 16.3,
             "p75": 20,
-            "occupation_name": "Architecture and engineering",
+            "occupation_name": "Sales and related occupations",
             "occupation_code": 4,
             "p90": 25
         },
@@ -4829,7 +4829,7 @@
             "p25": 16,
             "p50": 20,
             "p75": 24,
-            "occupation_name": "Life, physical, and social science",
+            "occupation_name": "Office and administrative support occupations",
             "occupation_code": 5,
             "p90": 30
         },
@@ -4839,7 +4839,7 @@
             "p25": 15,
             "p50": 16,
             "p75": 18.5,
-            "occupation_name": "Community and social service",
+            "occupation_name": "Farming, fishing, and forestry occupations",
             "occupation_code": 6,
             "p90": 22
         },
@@ -4849,7 +4849,7 @@
             "p25": 19,
             "p50": 24,
             "p75": 31.5,
-            "occupation_name": "Legal",
+            "occupation_name": "Construction and extraction occupations",
             "occupation_code": 7,
             "p90": 42.75
         },
@@ -4859,7 +4859,7 @@
             "p25": 20,
             "p50": 25,
             "p75": 33,
-            "occupation_name": "Education, training, and library",
+            "occupation_name": "Installation, maintenance, and repair occupations",
             "occupation_code": 8,
             "p90": 42
         },
@@ -4869,7 +4869,7 @@
             "p25": 17,
             "p50": 20.5,
             "p75": 25.5,
-            "occupation_name": "Arts, design, entertainment, sports, and media",
+            "occupation_name": "Production occupations",
             "occupation_code": 9,
             "p90": 32
         },
@@ -4879,10 +4879,10 @@
             "p25": 16,
             "p50": 19,
             "p75": 23,
-            "occupation_name": "Healthcare practitioners and technical",
+            "occupation_name": "Transportation and material moving occupations",
             "occupation_code": 10,
             "p90": 30
         }
     ],
-    "generated_at": "2025-11-19T22:27:49.712"
+    "generated_at": "2025-11-19T23:09:48.945"
 }
