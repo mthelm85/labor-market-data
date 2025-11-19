@@ -56,7 +56,7 @@ function main()
         unemp_by_ind = unemployment_rate_by_sector(df)
         ind_unemp_array = [Dict(
             "industry_code" => row.PRMJIND1,
-            "industry_name" => get(PRMJIND1_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
+            "industry_name" => get(INDUSTRY_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
             "unemployment_rate" => round(row.unemployment_rate, digits=2)
         ) for row in eachrow(unemp_by_ind)]
 
@@ -119,7 +119,7 @@ function main()
 
         Dict(
             "industry_code" => row.PRMJIND1,
-            "industry_name" => get(PRMJIND1_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
+            "industry_name" => get(INDUSTRY_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
             "avg_monthly_employment" => avg_emp,
             "p10" => round(row.p10, digits=2),
             "p25" => round(row.p25, digits=2),
