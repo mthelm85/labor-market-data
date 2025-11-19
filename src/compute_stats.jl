@@ -48,6 +48,8 @@ function wage_distribution_by_sector(df::DataFrame)
         :PEMLR ∈ [1, 2]
         :PEIO1COW ∈ [4, 5, 7]
         :PTERNHLY > 0
+        :PWORWGT > 0 
+        1 ≤ :PRMJIND1 ≤ 14 
     end
 
     sector_stats = @by universe :PRMJIND1 begin
@@ -66,6 +68,8 @@ function wage_distribution_by_occupation(df::DataFrame)
         :PEMLR ∈ [1, 2]
         :PEIO1COW ∈ [4, 5, 7]
         :PTERNHLY > 0
+        :PWORWGT > 0 
+        1 ≤ :PRDTOCC1 ≤ 22  
     end
 
     occ_stats = @by universe :PRDTOCC1 begin

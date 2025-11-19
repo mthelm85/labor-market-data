@@ -6,39 +6,52 @@ function fetch_cps_data(year::Int, month::Int, api_key::String)
     month_name = MONTH_NAMES[month]
     url = "https://api.census.gov/data/$year/cps/basic/$month_name"
     
-    # Request all variables we might need for various statistics
     params = Dict(
-        "get" => "PWCMPWGT,PWORWGT,PTERNHLY,PEMLR,PEIO1COW,PEERNHRY,PRDTIND1,PRDTOCC1,PRMJIND1,PRMJOCC1,PRHRUSL,PRTAGE,PEERNHRO,PRDISC",
+        "get" => "PWCMPWGT,PWORWGT,PTERNHLY,PEMLR,PEIO1COW,PEERNHRY,PRDTIND1,PRDTOCC1,PRMJIND1,PRMJOCC1,PRHRUSL,PRTAGE",
         "key" => api_key
     )
+    
+    safe_parse_float(s) = something(tryparse(Float64, s), -1.0)
+    safe_parse_int(s) = something(tryparse(Int64, s), -1)
     
     try
         res = HTTP.get(url, query=params)
         body = JSON3.read(String(res.body))
         
-        # Convert to DataFrame
+        data = body[2:end]
+        n_rows = length(data)
+        
         df = DataFrame(
-            [getindex.(body[2:end][:], i) for i in 1:length(body[1])],
-            body[1][:],
-            copycols=false
+            PWCMPWGT = Vector{Float64}(undef, n_rows),
+            PWORWGT = Vector{Float64}(undef, n_rows),
+            PTERNHLY = Vector{Float64}(undef, n_rows),
+            PEMLR = Vector{Int64}(undef, n_rows),
+            PEIO1COW = Vector{Int64}(undef, n_rows),
+            PEERNHRY = Vector{Int64}(undef, n_rows),
+            PRDTIND1 = Vector{Int64}(undef, n_rows),
+            PRDTOCC1 = Vector{Int64}(undef, n_rows),
+            PRMJIND1 = Vector{Int64}(undef, n_rows),
+            PRMJOCC1 = Vector{Int64}(undef, n_rows),
+            PRHRUSL = Vector{Union{Int64, Missing}}(undef, n_rows),
+            PRTAGE = Vector{Int64}(undef, n_rows)
         )
         
-        # Parse all numeric columns
-        df.PWCMPWGT = parse.(Float64, df.PWCMPWGT)
-        df.PWORWGT = parse.(Float64, df.PWORWGT)
-        df.PTERNHLY = parse.(Float64, df.PTERNHLY)
-        df.PEMLR = parse.(Int64, df.PEMLR)
-        df.PEIO1COW = parse.(Int64, df.PEIO1COW)
-        df.PEERNHRY = parse.(Int64, df.PEERNHRY)
-        df.PRDTIND1 = parse.(Int64, df.PRDTIND1)
-        df.PRDTOCC1 = parse.(Int64, df.PRDTOCC1)
-        df.PRHRUSL = tryparse.(Int64, df.PRHRUSL)
-        df.PRTAGE = parse.(Int64, df.PRTAGE)
-        df.PEERNHRO = parse.(Int64, df.PEERNHRO)
-        df.PRDISC = parse.(Int64, df.PRDISC)
-        df.PRMJIND1 = parse.(Int64, df.PRMJIND1)
-        df.PRMJOCC1 = parse.(Int64, df.PRMJOCC1)
+        for (i, row) in enumerate(data)
+            df.PWCMPWGT[i] = safe_parse_float(row[1])
+            df.PWORWGT[i] = safe_parse_float(row[2])
+            df.PTERNHLY[i] = safe_parse_float(row[3])
+            df.PEMLR[i] = safe_parse_int(row[4])
+            df.PEIO1COW[i] = safe_parse_int(row[5])
+            df.PEERNHRY[i] = safe_parse_int(row[6])
+            df.PRDTIND1[i] = safe_parse_int(row[7])
+            df.PRDTOCC1[i] = safe_parse_int(row[8])
+            df.PRMJIND1[i] = safe_parse_int(row[9])
+            df.PRMJOCC1[i] = safe_parse_int(row[10])
+            df.PRHRUSL[i] = something(tryparse(Int64, row[11]), missing)
+            df.PRTAGE[i] = safe_parse_int(row[12])
+        end
         
+        println("  Fetched data for $year-$month")
         return df
         
     catch e
