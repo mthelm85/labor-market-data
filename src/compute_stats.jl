@@ -102,3 +102,21 @@ function employment_by_occupation(df::DataFrame)
 
     return occ_stats
 end
+
+function unemployment_rate_by_sector(df::DataFrame)
+    df2 = @by df :PRMJIND1 begin
+        :labor_force = sum(:PWCMPWGT[:PEMLR .∈ Ref([1, 2, 3, 4])])
+        :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
+    end
+
+    return @rtransform df2 :unemployment_rate = (:unemployed / :labor_force) * 100
+end
+
+function unemployment_rate_by_occupation(df::DataFrame)
+    df2 = @by df :PRDTOCC1 begin
+        :labor_force = sum(:PWCMPWGT[:PEMLR .∈ Ref([1, 2, 3, 4])])
+        :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
+    end
+
+    return @rtransform df2 :unemployment_rate = (:unemployed / :labor_force) * 100
+end

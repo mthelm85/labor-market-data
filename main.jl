@@ -51,6 +51,22 @@ function main()
         mw = at_below_mw(df, FEDERAL_MIN_WAGE)
         ystat = youth_participation_rate(df)
         mwage = median_hourly_wage(df)
+        
+        # Unemployment by industry
+        unemp_by_ind = unemployment_rate_by_sector(df)
+        ind_unemp_array = [Dict(
+            "industry_code" => row.PRMJIND1,
+            "industry_name" => get(PRMJIND1_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
+            "unemployment_rate" => round(row.unemployment_rate, digits=2)
+        ) for row in eachrow(unemp_by_ind) if 1 ≤ row.PRMJIND1 ≤ 14]
+        
+        # Unemployment by occupation
+        unemp_by_occ = unemployment_rate_by_occupation(df)
+        occ_unemp_array = [Dict(
+            "occupation_code" => row.PRDTOCC1,
+            "occupation_name" => get(OCCUPATION_NAMES, row.PRDTOCC1, "Occupation $(row.PRDTOCC1)"),
+            "unemployment_rate" => round(row.unemployment_rate, digits=2)
+        ) for row in eachrow(unemp_by_occ) if 1 ≤ row.PRDTOCC1 ≤ 22]
 
         monthly[fetch_count] = Dict(
             "year" => y,
@@ -58,7 +74,9 @@ function main()
             "unemployment_rate" => round(ustat, digits=2),
             "min_wage_pct" => round(mw.pct_at_below_mw, digits=2),
             "youth_participation_rate" => round(ystat, digits=2),
-            "median_hourly_wage" => round(mwage, digits=2)
+            "median_hourly_wage" => round(mwage, digits=2),
+            "unemployment_by_industry" => ind_unemp_array,
+            "unemployment_by_occupation" => occ_unemp_array
         )
     end
 
