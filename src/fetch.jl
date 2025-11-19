@@ -8,7 +8,7 @@ function fetch_cps_data(year::Int, month::Int, api_key::String)
     
     # Request all variables we might need for various statistics
     params = Dict(
-        "get" => "PWCMPWGT,PWORWGT,PTERNHLY,PTERNH1C,PEMLR,PEIO1COW,PEERNHRY,PRDTIND1,PRDTOCC1,PRMJIND1,PRMJOCC1,PRHRUSL,PRTAGE,PEERNHRO,PRDISC",
+        "get" => "PWCMPWGT,PWORWGT,PTERNHLY,PEMLR,PEIO1COW,PEERNHRY,PRDTIND1,PRDTOCC1,PRMJIND1,PRMJOCC1,PRHRUSL,PRTAGE,PEERNHRO,PRDISC",
         "key" => api_key
     )
     
@@ -36,7 +36,6 @@ function fetch_cps_data(year::Int, month::Int, api_key::String)
         df.PRTAGE = parse.(Int64, df.PRTAGE)
         df.PEERNHRO = parse.(Int64, df.PEERNHRO)
         df.PRDISC = parse.(Int64, df.PRDISC)
-        df.PTERNH1C = parse.(Float64, df.PTERNH1C)
         df.PRMJIND1 = parse.(Int64, df.PRMJIND1)
         df.PRMJOCC1 = parse.(Int64, df.PRMJOCC1)
         

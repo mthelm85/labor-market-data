@@ -53,7 +53,7 @@ function main()
             # compute_stats.jl provides these functions: unemployment_rate, at_below_mw, discouraged_rate, median_hourly_wage
             ustat = unemployment_rate(df)
             mw = at_below_mw(df, FEDERAL_MIN_WAGE)
-            dstat = discouraged_rate(df)
+            ystat = youth_participation_rate(df)
             mwage = median_hourly_wage(df)
 
             month_obj = Dict(
@@ -61,7 +61,7 @@ function main()
                 "month" => m,
                 "unemployment_rate" => round(ustat, digits=2),
                 "min_wage_pct" => round(mw.pct_at_below_mw, digits=2),
-                "discouraged_rate" => round(dstat, digits=2),
+                "youth_participation_rate" => round(ystat, digits=2),
                 "median_hourly_wage" => round(mwage, digits=2)
             )
 
@@ -77,34 +77,51 @@ function main()
     df_12m = vcat(dfs...)
 
     println("Computing 12-month wage distributions by industry and occupation...")
-    ind_stats = wage_distribution_by_industry(df_12m)
+    ind_stats = wage_distribution_by_sector(df_12m)
     occ_stats = wage_distribution_by_occupation(df_12m)
 
-    # Build industry quantile objects from ind_stats (fields: PRMJIND1, min, q1, q2, q3, max)
+    # Compute total employment by industry and occupation (all employed, PEMLR ∈ [1,2])
+    employed_df = @rsubset(df_12m, :PEMLR ∈ [1, 2])
+    
+    ind_employment = combine(groupby(employed_df, :PRMJIND1)) do group
+        (total_employment=sum(group.PWCMPWGT),)
+    end
+    
+    occ_employment = combine(groupby(employed_df, :PRDTOCC1)) do group
+        (total_employment=sum(group.PWCMPWGT),)
+    end
+
+    # Build industry quantile objects from ind_stats with total employment
     industries = []
     for row in eachrow(ind_stats)
+        emp_idx = findfirst(x -> x == row.PRMJIND1, ind_employment.PRMJIND1)
+        total_emp = isnothing(emp_idx) ? 0 : ind_employment[emp_idx, :total_employment]
         push!(industries, Dict(
             "industry_code" => row.PRMJIND1,
             "industry_name" => get(PRMJIND1_NAMES, row.PRMJIND1, "Industry $(row.PRMJIND1)"),
-            "min" => round(row.min, digits=2),
-            "q1" => round(row.q1, digits=2),
-            "q2" => round(row.q2, digits=2),
-            "q3" => round(row.q3, digits=2),
-            "max" => round(row.max, digits=2)
+            "total_employment" => round(Int, total_emp),
+            "p10" => round(row.p10, digits=2),
+            "p25" => round(row.p25, digits=2),
+            "p50" => round(row.p50, digits=2),
+            "p75" => round(row.p75, digits=2),
+            "p90" => round(row.p90, digits=2)
         ))
     end
 
-    # Build occupation quantile objects from occ_stats (fields: PRDTOCC1, min, q1, q2, q3, max)
+    # Build occupation quantile objects from occ_stats with total employment
     occupations = []
     for row in eachrow(occ_stats)
+        emp_idx = findfirst(x -> x == row.PRDTOCC1, occ_employment.PRDTOCC1)
+        total_emp = isnothing(emp_idx) ? 0 : occ_employment[emp_idx, :total_employment]
         push!(occupations, Dict(
             "occupation_code" => row.PRDTOCC1,
             "occupation_name" => get(OCCUPATION_NAMES, row.PRDTOCC1, "Occupation $(row.PRDTOCC1)"),
-            "min" => round(row.min, digits=2),
-            "q1" => round(row.q1, digits=2),
-            "q2" => round(row.q2, digits=2),
-            "q3" => round(row.q3, digits=2),
-            "max" => round(row.max, digits=2)
+            "total_employment" => round(Int, total_emp),
+            "p10" => round(row.p10, digits=2),
+            "p25" => round(row.p25, digits=2),
+            "p50" => round(row.p50, digits=2),
+            "p75" => round(row.p75, digits=2),
+            "p90" => round(row.p90, digits=2)
         ))
     end
 
