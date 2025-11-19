@@ -107,7 +107,7 @@ function unemployment_rate_by_sector(df::DataFrame)
     @chain df begin
         @rsubset 1 ≤ :PRMJIND1 ≤ 14
         @by :PRMJIND1 begin
-            :labor_force = sum(:PWCMPWGT)
+            :labor_force = sum(:PWCMPWGT[:PEMLR .∈ Ref([1, 2, 3, 4])])
             :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
         end
         @rtransform :unemployment_rate = (:unemployed / :labor_force) * 100
@@ -118,7 +118,7 @@ function unemployment_rate_by_occupation(df::DataFrame)
     @chain df begin
         @rsubset 1 ≤ :PRMJOCC1 ≤ 22
         @by :PRMJOCC1 begin
-            :labor_force = sum(:PWCMPWGT)
+            :labor_force = sum(:PWCMPWGT[:PEMLR .∈ Ref([1, 2, 3, 4])])
             :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
         end
         @rtransform :unemployment_rate = (:unemployed / :labor_force) * 100
