@@ -3,7 +3,7 @@ name: Update Labor Market Data
 on:
   schedule:
     # Run on the 5th of each month at 2am UTC (allows time for Census to update)
-    - cron: '0 2 5 * *'
+    - cron: '0 2 15 * *'
   workflow_dispatch: # Allow manual triggering
 
 jobs:

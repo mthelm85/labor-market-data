@@ -1,6 +1,6 @@
 # Configuration constants
 const FEDERAL_MIN_WAGE = 7.25
-const LOOKBACK_MONTHS = 36
+const LOOKBACK_MONTHS = 3
 const OUTPUT_FILE = "data/labor_stats.json"
 
 # Month name mapping for Census API
