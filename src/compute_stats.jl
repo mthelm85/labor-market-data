@@ -105,7 +105,7 @@ end
 
 function unemployment_rate_by_sector(df::DataFrame)
     @chain df begin
-        @rsubset 1 ≤ :PRMJIND1 ≤ 14
+        @rsubset 1 ≤ :PRMJIND1 ≤ 13
         @by :PRMJIND1 begin
             :labor_force = sum(:PWCMPWGT[:PEMLR .∈ Ref([1, 2, 3, 4])])
             :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
@@ -116,7 +116,7 @@ end
 
 function unemployment_rate_by_occupation(df::DataFrame)
     @chain df begin
-        @rsubset 1 ≤ :PRMJOCC1 ≤ 22
+        @rsubset 1 ≤ :PRMJOCC1 ≤ 10
         @by :PRMJOCC1 begin
             :labor_force = sum(:PWCMPWGT[:PEMLR .∈ Ref([1, 2, 3, 4])])
             :unemployed = sum(:PWCMPWGT[:PEMLR .∈ Ref([3, 4])])
