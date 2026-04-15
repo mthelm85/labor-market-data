@@ -1,133 +1,6 @@
 {
     "monthly": [
         {
-            "youth_participation_rate": 25.18,
-            "month": 12,
-            "unemployment_rate": 3.26,
-            "min_wage_pct": 5.1,
-            "year": 2022,
-            "median_hourly_wage": 18.5,
-            "unemployment_by_occupation": [
-                {
-                    "unemployment_rate": 1.77,
-                    "occupation_name": "Management, business, and financial occupations",
-                    "occupation_code": 1
-                },
-                {
-                    "unemployment_rate": 1.66,
-                    "occupation_name": "Professional and related occupations",
-                    "occupation_code": 2
-                },
-                {
-                    "unemployment_rate": 4.6,
-                    "occupation_name": "Service occupations",
-                    "occupation_code": 3
-                },
-                {
-                    "unemployment_rate": 3.36,
-                    "occupation_name": "Sales and related occupations",
-                    "occupation_code": 4
-                },
-                {
-                    "unemployment_rate": 3.12,
-                    "occupation_name": "Office and administrative support occupations",
-                    "occupation_code": 5
-                },
-                {
-                    "unemployment_rate": 6.92,
-                    "occupation_name": "Farming, fishing, and forestry occupations",
-                    "occupation_code": 6
-                },
-                {
-                    "unemployment_rate": 5.65,
-                    "occupation_name": "Construction and extraction occupations",
-                    "occupation_code": 7
-                },
-                {
-                    "unemployment_rate": 2.22,
-                    "occupation_name": "Installation, maintenance, and repair occupations",
-                    "occupation_code": 8
-                },
-                {
-                    "unemployment_rate": 2.63,
-                    "occupation_name": "Production occupations",
-                    "occupation_code": 9
-                },
-                {
-                    "unemployment_rate": 4.94,
-                    "occupation_name": "Transportation and material moving occupations",
-                    "occupation_code": 10
-                }
-            ],
-            "unemployment_by_industry": [
-                {
-                    "industry_name": "Agriculture, forestry, fishing, and hunting",
-                    "industry_code": 1,
-                    "unemployment_rate": 3.5
-                },
-                {
-                    "industry_name": "Mining",
-                    "industry_code": 2,
-                    "unemployment_rate": 1.86
-                },
-                {
-                    "industry_name": "Construction",
-                    "industry_code": 3,
-                    "unemployment_rate": 4.7
-                },
-                {
-                    "industry_name": "Manufacturing",
-                    "industry_code": 4,
-                    "unemployment_rate": 1.89
-                },
-                {
-                    "industry_name": "Wholesale and retail trade",
-                    "industry_code": 5,
-                    "unemployment_rate": 3.54
-                },
-                {
-                    "industry_name": "Transportation and utilities",
-                    "industry_code": 6,
-                    "unemployment_rate": 3.85
-                },
-                {
-                    "industry_name": "Information",
-                    "industry_code": 7,
-                    "unemployment_rate": 2.23
-                },
-                {
-                    "industry_name": "Financial activities",
-                    "industry_code": 8,
-                    "unemployment_rate": 2.6
-                },
-                {
-                    "industry_name": "Professional and business services",
-                    "industry_code": 9,
-                    "unemployment_rate": 3.57
-                },
-                {
-                    "industry_name": "Educational and health services",
-                    "industry_code": 10,
-                    "unemployment_rate": 1.76
-                },
-                {
-                    "industry_name": "Leisure and hospitality",
-                    "industry_code": 11,
-                    "unemployment_rate": 5.16
-                },
-                {
-                    "industry_name": "Other services",
-                    "industry_code": 12,
-                    "unemployment_rate": 2.59
-                },
-                {
-                    "industry_name": "Public administration",
-                    "industry_code": 13,
-                    "unemployment_rate": 1.9
-                }
-            ]
-        },
-        {
             "youth_participation_rate": 24.38,
             "month": 1,
             "unemployment_rate": 3.86,
@@ -4825,6 +4698,133 @@
                     "unemployment_rate": 2.59
                 }
             ]
+        },
+        {
+            "youth_participation_rate": 22.64,
+            "month": 3,
+            "unemployment_rate": 4.31,
+            "min_wage_pct": 3.76,
+            "year": 2026,
+            "median_hourly_wage": 21,
+            "unemployment_by_occupation": [
+                {
+                    "unemployment_rate": 2.56,
+                    "occupation_name": "Management, business, and financial occupations",
+                    "occupation_code": 1
+                },
+                {
+                    "unemployment_rate": 2.4,
+                    "occupation_name": "Professional and related occupations",
+                    "occupation_code": 2
+                },
+                {
+                    "unemployment_rate": 5.33,
+                    "occupation_name": "Service occupations",
+                    "occupation_code": 3
+                },
+                {
+                    "unemployment_rate": 5.01,
+                    "occupation_name": "Sales and related occupations",
+                    "occupation_code": 4
+                },
+                {
+                    "unemployment_rate": 3.77,
+                    "occupation_name": "Office and administrative support occupations",
+                    "occupation_code": 5
+                },
+                {
+                    "unemployment_rate": 11.06,
+                    "occupation_name": "Farming, fishing, and forestry occupations",
+                    "occupation_code": 6
+                },
+                {
+                    "unemployment_rate": 7.57,
+                    "occupation_name": "Construction and extraction occupations",
+                    "occupation_code": 7
+                },
+                {
+                    "unemployment_rate": 3.69,
+                    "occupation_name": "Installation, maintenance, and repair occupations",
+                    "occupation_code": 8
+                },
+                {
+                    "unemployment_rate": 4.04,
+                    "occupation_name": "Production occupations",
+                    "occupation_code": 9
+                },
+                {
+                    "unemployment_rate": 5.41,
+                    "occupation_name": "Transportation and material moving occupations",
+                    "occupation_code": 10
+                }
+            ],
+            "unemployment_by_industry": [
+                {
+                    "industry_name": "Agriculture, forestry, fishing, and hunting",
+                    "industry_code": 1,
+                    "unemployment_rate": 7.03
+                },
+                {
+                    "industry_name": "Mining",
+                    "industry_code": 2,
+                    "unemployment_rate": 4.62
+                },
+                {
+                    "industry_name": "Construction",
+                    "industry_code": 3,
+                    "unemployment_rate": 6.49
+                },
+                {
+                    "industry_name": "Manufacturing",
+                    "industry_code": 4,
+                    "unemployment_rate": 3.44
+                },
+                {
+                    "industry_name": "Wholesale and retail trade",
+                    "industry_code": 5,
+                    "unemployment_rate": 4.42
+                },
+                {
+                    "industry_name": "Transportation and utilities",
+                    "industry_code": 6,
+                    "unemployment_rate": 3.28
+                },
+                {
+                    "industry_name": "Information",
+                    "industry_code": 7,
+                    "unemployment_rate": 4.5
+                },
+                {
+                    "industry_name": "Financial activities",
+                    "industry_code": 8,
+                    "unemployment_rate": 2.68
+                },
+                {
+                    "industry_name": "Professional and business services",
+                    "industry_code": 9,
+                    "unemployment_rate": 4.24
+                },
+                {
+                    "industry_name": "Educational and health services",
+                    "industry_code": 10,
+                    "unemployment_rate": 2.66
+                },
+                {
+                    "industry_name": "Leisure and hospitality",
+                    "industry_code": 11,
+                    "unemployment_rate": 6
+                },
+                {
+                    "industry_name": "Other services",
+                    "industry_code": 12,
+                    "unemployment_rate": 4.17
+                },
+                {
+                    "industry_name": "Public administration",
+                    "industry_code": 13,
+                    "unemployment_rate": 2.8
+                }
+            ]
         }
     ],
     "industries": [
@@ -4832,7 +4832,7 @@
             "industry_name": "Agriculture, forestry, fishing, and hunting",
             "industry_code": 1,
             "p10": 13,
-            "avg_monthly_employment": 2239000,
+            "avg_monthly_employment": 2236220,
             "p25": 15,
             "p50": 17,
             "p75": 20,
@@ -4842,7 +4842,7 @@
             "industry_name": "Mining",
             "industry_code": 2,
             "p10": 17,
-            "avg_monthly_employment": 570648,
+            "avg_monthly_employment": 569109,
             "p25": 20,
             "p50": 25,
             "p75": 31.5,
@@ -4851,18 +4851,18 @@
         {
             "industry_name": "Construction",
             "industry_code": 3,
-            "p10": 15.15,
-            "avg_monthly_employment": 11983339,
+            "p10": 15.25,
+            "avg_monthly_employment": 11984362,
             "p25": 19,
             "p50": 24,
-            "p75": 31.25,
+            "p75": 31.5,
             "p90": 43
         },
         {
             "industry_name": "Manufacturing",
             "industry_code": 4,
             "p10": 15,
-            "avg_monthly_employment": 15221714,
+            "avg_monthly_employment": 15219818,
             "p25": 18,
             "p50": 22,
             "p75": 28,
@@ -4872,17 +4872,17 @@
             "industry_name": "Wholesale and retail trade",
             "industry_code": 5,
             "p10": 12.5,
-            "avg_monthly_employment": 19615911,
+            "avg_monthly_employment": 19605389,
             "p25": 15,
-            "p50": 17.75,
+            "p50": 18,
             "p75": 22,
-            "p90": 27.85
+            "p90": 28
         },
         {
             "industry_name": "Transportation and utilities",
             "industry_code": 6,
             "p10": 15,
-            "avg_monthly_employment": 10015653,
+            "avg_monthly_employment": 10030571,
             "p25": 18,
             "p50": 22,
             "p75": 29,
@@ -4892,7 +4892,7 @@
             "industry_name": "Information",
             "industry_code": 7,
             "p10": 15,
-            "avg_monthly_employment": 2865479,
+            "avg_monthly_employment": 2856921,
             "p25": 18,
             "p50": 24,
             "p75": 33,
@@ -4902,29 +4902,29 @@
             "industry_name": "Financial activities",
             "industry_code": 8,
             "p10": 15,
-            "avg_monthly_employment": 11043724,
+            "avg_monthly_employment": 11057608,
             "p25": 18,
-            "p50": 22,
+            "p50": 22.25,
             "p75": 28,
-            "p90": 37.22
+            "p90": 37.5
         },
         {
             "industry_name": "Professional and business services",
             "industry_code": 9,
             "p10": 15,
-            "avg_monthly_employment": 21329249,
+            "avg_monthly_employment": 21349000,
             "p25": 17,
             "p50": 21,
-            "p75": 28.75,
+            "p75": 29,
             "p90": 42
         },
         {
             "industry_name": "Educational and health services",
             "industry_code": 10,
             "p10": 14,
-            "avg_monthly_employment": 37133316,
+            "avg_monthly_employment": 37208400,
             "p25": 17,
-            "p50": 21,
+            "p50": 21.25,
             "p75": 31,
             "p90": 45
         },
@@ -4932,8 +4932,8 @@
             "industry_name": "Leisure and hospitality",
             "industry_code": 11,
             "p10": 10,
-            "avg_monthly_employment": 14131361,
-            "p25": 12.5,
+            "avg_monthly_employment": 14147002,
+            "p25": 12.85,
             "p50": 15.5,
             "p75": 19,
             "p90": 24
@@ -4942,38 +4942,38 @@
             "industry_name": "Other services",
             "industry_code": 12,
             "p10": 12.5,
-            "avg_monthly_employment": 7687486,
+            "avg_monthly_employment": 7689639,
             "p25": 15,
             "p50": 19,
             "p75": 25,
-            "p90": 32
+            "p90": 32.25
         }
     ],
     "lookback_months": 38,
     "occupations": [
         {
             "p10": 16,
-            "avg_monthly_employment": 30691377,
-            "p25": 19,
+            "avg_monthly_employment": 30726705,
+            "p25": 19.25,
             "p50": 25,
             "p75": 32,
             "occupation_name": "Management, business, and financial occupations",
             "occupation_code": 1,
-            "p90": 46.04
+            "p90": 47
         },
         {
             "p10": 16,
-            "avg_monthly_employment": 40049095,
+            "avg_monthly_employment": 40085429,
             "p25": 20,
             "p50": 28,
-            "p75": 40,
+            "p75": 40.25,
             "occupation_name": "Professional and related occupations",
             "occupation_code": 2,
-            "p90": 57
+            "p90": 57.6
         },
         {
-            "p10": 10.75,
-            "avg_monthly_employment": 26586523,
+            "p10": 11,
+            "avg_monthly_employment": 26620283,
             "p25": 14,
             "p50": 16.5,
             "p75": 20,
@@ -4983,7 +4983,7 @@
         },
         {
             "p10": 12,
-            "avg_monthly_employment": 14192614,
+            "avg_monthly_employment": 14190301,
             "p25": 14,
             "p50": 16.5,
             "p75": 20,
@@ -4993,19 +4993,19 @@
         },
         {
             "p10": 14,
-            "avg_monthly_employment": 16067230,
-            "p25": 16.4,
+            "avg_monthly_employment": 16078459,
+            "p25": 16.5,
             "p50": 20,
-            "p75": 24.15,
+            "p75": 24.45,
             "occupation_name": "Office and administrative support occupations",
             "occupation_code": 5,
             "p90": 30
         },
         {
             "p10": 12,
-            "avg_monthly_employment": 975324,
+            "avg_monthly_employment": 973865,
             "p25": 15,
-            "p50": 16.25,
+            "p50": 16.5,
             "p75": 19,
             "occupation_name": "Farming, fishing, and forestry occupations",
             "occupation_code": 6,
@@ -5013,7 +5013,7 @@
         },
         {
             "p10": 15.25,
-            "avg_monthly_employment": 8459485,
+            "avg_monthly_employment": 8446859,
             "p25": 19,
             "p50": 24,
             "p75": 32,
@@ -5022,28 +5022,28 @@
             "p90": 43
         },
         {
-            "p10": 16,
-            "avg_monthly_employment": 4947146,
+            "p10": 16.1,
+            "avg_monthly_employment": 4946012,
             "p25": 20,
-            "p50": 25.35,
-            "p75": 33.25,
+            "p50": 25.45,
+            "p75": 33.5,
             "occupation_name": "Installation, maintenance, and repair occupations",
             "occupation_code": 8,
             "p90": 42
         },
         {
             "p10": 15,
-            "avg_monthly_employment": 8025312,
-            "p25": 17,
+            "avg_monthly_employment": 8012593,
+            "p25": 17.1,
             "p50": 21,
             "p75": 26,
             "occupation_name": "Production occupations",
             "occupation_code": 9,
-            "p90": 32.5
+            "p90": 32.75
         },
         {
-            "p10": 13.75,
-            "avg_monthly_employment": 11840140,
+            "p10": 14,
+            "avg_monthly_employment": 11856178,
             "p25": 16,
             "p50": 19,
             "p75": 23.5,
@@ -5052,5 +5052,5 @@
             "p90": 30
         }
     ],
-    "generated_at": "2026-03-15T03:08:07.074"
+    "generated_at": "2026-04-15T03:07:10.430"
 }
